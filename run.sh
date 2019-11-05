@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 GAMS="/home/bernalde/gams/gams28.2_linux_x64_64_sfx/gams"
+QSUB="/usr/local/bin/qsub"
 if [ $USER == debernal ] ; then
     INSTANCEDIR=/home/debernal/Perspective/instances
     EXPDIR=/home/bernalde/Repositories/conic_disjunctive
@@ -9,8 +10,8 @@ else
     EXPDIR=/home/bernalde/Repositories/conic_disjunctive
 fi
 TESTSET="random_socp"
-SKIPEXISTING=0   # whether to skip runs for which a trace file already exists
-
+SKIPEXISTING=1   # whether to skip runs for which a trace file already exists
+PARALLEL=1 # to use in Euler server by submitting runs to torque
 GAMSOPTS="reslim=3600 threads=1 optcr=1e-5 iterlim=1e9 LO=3"
 # TODO memlimit?
 
@@ -41,21 +42,26 @@ function runinstance ()
 * Trace Record Definition
 * GamsSolve
 * InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes
+* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
 EOF
 
 
    if [ $USER == bernalde ] ; then
-      sed -i '13s/.*/#PBS -N '"${TESTSET}.$1.$2.$3.$4"'/' parallel.sh
-      sed -i '17s@.*@cd '"${EXPDIR}"'@' parallel.sh
-      # qsub parallel.sh
-      if [ $5 == 0 ]; then
-          $GAMS ${INSTANCEDIR}/$1 MINLP=$2 NLP=$3 OPTFILE=$4 $GAMSOPTS LF=${TESTSET}.log/$1.$2.$3.$4.log O=${TESTSET}.log/$1.$2.$3.$4.lst TRACE=$TRACEFILE
+      if [[ $5 == 0 ]]; then
           sed -i '18s@.*@'"$GAMS ${INSTANCEDIR}/$1 MINLP=$2 NLP=$3 OPTFILE=$4 $GAMSOPTS LF=${TESTSET}.log/$1.$2.$3.$4.log O=${TESTSET}.log/$1.$2.$3.$4.lst TRACE=$TRACEFILE"'@' parallel.sh
       else
-          $GAMS ${INSTANCEDIR}/$1 MIQCP=$2 QCP=$3 OPTFILE=$4 $GAMSOPTS LF=${TESTSET}.log/$1.$2.$3.$4.log O=${TESTSET}.log/$1.$2.$3.$4.lst TRACE=$TRACEFILE
           sed -i '18s@.*@'"$GAMS ${INSTANCEDIR}/$1 MIQCP=$2 QCP=$3 OPTFILE=$4 $GAMSOPTS LF=${TESTSET}.log/$1.$2.$3.$4.log O=${TESTSET}.log/$1.$2.$3.$4.lst TRACE=$TRACEFILE"'@' parallel.sh
-
+      fi
+      if [[ $PARALLEL == 1 ]] ; then
+          sed -i '13s/.*/#PBS -N '"${TESTSET}.$1.$2.$3.$4"'/' parallel.sh
+          sed -i '17s@.*@cd '"${EXPDIR}"'@' parallel.sh
+          $QSUB parallel.sh
+      else
+          if [[ $5 == 0 ]]; then
+              $GAMS ${INSTANCEDIR}/$1 MINLP=$2 NLP=$3 OPTFILE=$4 $GAMSOPTS LF=${TESTSET}.log/$1.$2.$3.$4.log O=${TESTSET}.log/$1.$2.$3.$4.lst TRACE=$TRACEFILE
+          else
+              $GAMS ${INSTANCEDIR}/$1 MIQCP=$2 QCP=$3 OPTFILE=$4 $GAMSOPTS LF=${TESTSET}.log/$1.$2.$3.$4.log O=${TESTSET}.log/$1.$2.$3.$4.lst TRACE=$TRACEFILE
+          fi
       fi
    fi
 }
@@ -64,6 +70,7 @@ EOF
 # $1 = solvername
 # $2 = continuous subsolvername
 # $3 = option file number
+# $4 = binary option if NLP (0) of QCP (1)
 function runsolveropt ()
 {
    for i in $INSTANCES
@@ -72,6 +79,34 @@ function runsolveropt ()
    done
 }
 
-# run all
+# run sbb subsolvers
+runsolveropt sbb cplex 0 1
+runsolveropt sbb gurobi 0 1
 runsolveropt sbb ipopth 0 1
-#runsolveropt sbb ipopth 0 0
+runsolveropt sbb conopt 0 1
+runsolveropt sbb mosek 0 1
+runsolveropt sbb knitro 0 1
+
+# run global minlp solvers
+runsolveropt baron baron 0 1
+runsolveropt scip scip 0 1
+runsolveropt antigone antigone 0 1
+
+# run milp solvers
+runsolveropt cplex cplex 0 1
+runsolveropt gurobi gurobi 0 1
+
+# run MOSEK with and without OA
+runsolveropt mosek mosek 0 1
+runsolveropt mosek mosek 2 1
+
+# run dicopt subsolvers
+runsolveropt dicopt2 conopt 2 1
+runsolveropt dicopt2 ipopth 2 1
+runsolveropt dicopt2 knitro 2 1
+runsolveropt dicopt2 mosek 2 1
+
+# run knitro
+runsolveropt knitro knitro 0 1
+
+
