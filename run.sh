@@ -10,7 +10,7 @@ else
     EXPDIR=/home/bernalde/Repositories/conic_disjunctive
 fi
 TESTSET="random_socp"
-SKIPEXISTING=1   # whether to skip runs for which a trace file already exists
+SKIPEXISTING=0   # whether to skip runs for which a trace file already exists
 PARALLEL=1 # to use in Euler server by submitting runs to torque
 GAMSOPTS="reslim=3600 threads=1 optcr=1e-5 iterlim=1e9 LO=3"
 # TODO memlimit?
@@ -48,9 +48,9 @@ EOF
 
    if [ $USER == bernalde ] ; then
       if [[ $5 == 0 ]]; then
-          sed -i '18s@.*@'"$GAMS ${INSTANCEDIR}/$1 MINLP=$2 NLP=$3 OPTFILE=$4 $GAMSOPTS LF=${TESTSET}.log/$1.$2.$3.$4.log O=${TESTSET}.log/$1.$2.$3.$4.lst TRACE=$TRACEFILE"'@' parallel.sh
+          sed -i '18s@.*@'"$GAMS ${INSTANCEDIR}/$1 MINLP=$2 NLP=$3 OPTFILE=$4 $GAMSOPTS LF=${TESTSET}.log/$1.$2.$3.$4.log O=${TESTSET}.log/$1.$2.$3.$4.lst TRACE=$TRACEFILE --TYPE=MINLP"'@' parallel.sh
       else
-          sed -i '18s@.*@'"$GAMS ${INSTANCEDIR}/$1 MIQCP=$2 QCP=$3 OPTFILE=$4 $GAMSOPTS LF=${TESTSET}.log/$1.$2.$3.$4.log O=${TESTSET}.log/$1.$2.$3.$4.lst TRACE=$TRACEFILE"'@' parallel.sh
+          sed -i '18s@.*@'"$GAMS ${INSTANCEDIR}/$1 MIQCP=$2 QCP=$3 OPTFILE=$4 $GAMSOPTS LF=${TESTSET}.log/$1.$2.$3.$4.log O=${TESTSET}.log/$1.$2.$3.$4.lst TRACE=$TRACEFILE --TYPE=MIQCP"'@' parallel.sh
       fi
       if [[ $PARALLEL == 1 ]] ; then
           sed -i '13s/.*/#PBS -N '"${TESTSET}.$1.$2.$3.$4"'/' parallel.sh
@@ -58,9 +58,9 @@ EOF
           $QSUB parallel.sh
       else
           if [[ $5 == 0 ]]; then
-              $GAMS ${INSTANCEDIR}/$1 MINLP=$2 NLP=$3 OPTFILE=$4 $GAMSOPTS LF=${TESTSET}.log/$1.$2.$3.$4.log O=${TESTSET}.log/$1.$2.$3.$4.lst TRACE=$TRACEFILE
+              $GAMS ${INSTANCEDIR}/$1 MINLP=$2 NLP=$3 OPTFILE=$4 $GAMSOPTS LF=${TESTSET}.log/$1.$2.$3.$4.log O=${TESTSET}.log/$1.$2.$3.$4.lst TRACE=$TRACEFILE --TYPE=MINLP
           else
-              $GAMS ${INSTANCEDIR}/$1 MIQCP=$2 QCP=$3 OPTFILE=$4 $GAMSOPTS LF=${TESTSET}.log/$1.$2.$3.$4.log O=${TESTSET}.log/$1.$2.$3.$4.lst TRACE=$TRACEFILE
+              $GAMS ${INSTANCEDIR}/$1 MIQCP=$2 QCP=$3 OPTFILE=$4 $GAMSOPTS LF=${TESTSET}.log/$1.$2.$3.$4.log O=${TESTSET}.log/$1.$2.$3.$4.lst TRACE=$TRACEFILE --TYPE=MIQCP
           fi
       fi
    fi
@@ -75,38 +75,38 @@ function runsolveropt ()
 {
    for i in $INSTANCES
    do
-      runinstance $i $1 $2 $3
+      runinstance $i $1 $2 $3 $4
    done
 }
 
 # run sbb subsolvers
 #runsolveropt sbb cplex 0 1
 #runsolveropt sbb gurobi 0 1
-runsolveropt sbb ipopth 0 1
-runsolveropt sbb conopt 0 1
-#runsolveropt sbb mosek 0 1
-runsolveropt sbb knitro 0 1
+runsolveropt sbb ipopth 0 0
+runsolveropt sbb conopt 0 0
+#runsolveropt sbb mosek 0 0
+runsolveropt sbb knitro 0 0
 
 # run global minlp solvers
-runsolveropt baron baron 0 1
-runsolveropt scip scip 0 1
-runsolveropt antigone antigone 0 1
+runsolveropt baron baron 0 0
+runsolveropt scip scip 0 0
+runsolveropt antigone antigone 0 0
 
 # run milp solvers
 #runsolveropt cplex cplex 0 1
 #runsolveropt gurobi gurobi 0 1
 
 # run MOSEK with and without OA
-#runsolveropt mosek mosek 0 1
-#runsolveropt mosek mosek 2 1
+#runsolveropt mosek mosek 0 0
+#runsolveropt mosek mosek 2 0
 
 # run dicopt subsolvers
-runsolveropt dicopt2 conopt 2 1
-runsolveropt dicopt2 ipopth 2 1
-runsolveropt dicopt2 knitro 2 1
-#runsolveropt dicopt2 mosek 2 1
+runsolveropt dicopt2 conopt 2 0
+runsolveropt dicopt2 ipopth 2 0
+runsolveropt dicopt2 knitro 2 0
+#runsolveropt dicopt2 mosek 2 0
 
 # run knitro
-runsolveropt knitro knitro 0 1
+runsolveropt knitro knitro 0 0
 
 

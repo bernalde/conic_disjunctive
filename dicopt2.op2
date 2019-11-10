@@ -1,3 +1,4 @@
 stop 1
 infeasder 1
 weight 2e20
+maxcycles 10000
