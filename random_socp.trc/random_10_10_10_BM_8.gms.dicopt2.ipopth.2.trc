@@ -2,4 +2,4 @@
 * GamsSolve
 * InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
 * ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_10_10_10_BM_8.gms,DICOPT2,2,0,111,111,100,1211,1000,8,1,-4275.22088220777,-24193.8911103469,153.681,153.787000291049,787820,NA,0
+random_10_10_10_BM_8.gms,DICOPT2,2,0,111,111,100,1211,1000,8,3,-4275.22088220777,-11118.6084633704,3600.023,3600.48299983609,6974761,NA,0

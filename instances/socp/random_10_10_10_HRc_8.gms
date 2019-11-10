@@ -187,5 +187,5 @@ ni.l(k,i,j) = 1;
 
 
 
-$if not set MIQCP $set MIQCP MIQCP
-Solve prob_HRc using %MIQCP% minimizing obj;
+$if not set TYPE $set TYPE MIQCP
+Solve prob_HR2c using %TYPE% minimizing obj;

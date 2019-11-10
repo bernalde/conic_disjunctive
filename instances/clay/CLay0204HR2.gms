@@ -218,10 +218,10 @@ $if not set RTYPE $set RTYPE rMINLP
 $if not set TYPE $set TYPE MINLP
 
 
-SOLVE LAYOUT_CH USING %RTYPE% MINIMIZING OBJ;
+*SOLVE LAYOUT_CH USING %RTYPE% MINIMIZING OBJ;
 
-results('obj','relax') = LAYOUT_CH.objval;
-results('time','relax') = LAYOUT_CH.resusd;
+*results('obj','relax') = LAYOUT_CH.objval;
+*results('time','relax') = LAYOUT_CH.resusd;
 
 *LAYOUT_CH.OPTFILE = 1;
 *LAYOUT_CH.NODLIM = 1000000;
