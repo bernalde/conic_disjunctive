@@ -2,4 +2,4 @@
 * GamsSolve
 * InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
 * ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-RSyn0820M03BM.gms,BARON,NA,1,1810,766,312,4514,42,8,1,2028.81194082127,2028.83222914,30.81,30.8789998060092,0,177,0
+RSyn0820M03BM.gms,BARON,NA,1,1810,766,312,4514,42,8,1,2028.81194082127,2028.83222914,27.41,27.5170002132654,0,83,0
