@@ -1,0 +1,12 @@
+RSyn0805BMC.gms
+RSyn0805HC.gms
+RSyn0810BMC.gms
+RSyn0810HC.gms
+RSyn0815BMC.gms
+RSyn0815HC.gms
+RSyn0820BMC.gms
+RSyn0820HC.gms
+RSyn0830BMC.gms
+RSyn0830HC.gms
+RSyn0840BMC.gms
+RSyn0840HC.gms

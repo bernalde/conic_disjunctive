@@ -2,4 +2,4 @@
 * GamsSolve
 * InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
 * ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-RSyn0830M03BM.gms,KNITRO,NA,1,2152,931,372,5359,60,7,3,2.03445197824948,5511.14134762322,3600.203,3600.21599954925,0,34392,0
+RSyn0830M03BM.gms,KNITRO,NA,1,2152,931,372,5359,60,6,3,4884.57785826662,5579.20545784106,3600.172,3600.20000059158,0,33975,0

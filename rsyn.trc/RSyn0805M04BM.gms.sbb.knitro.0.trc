@@ -2,4 +2,4 @@
 * GamsSolve
 * InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
 * ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-RSyn0805M04BM.gms,SBB,NA,1,1887,721,296,4709,12,8,4,5265.54289226897,10809.0703710036,155.698,155.714999791235,0,999,0
+RSyn0805M04BM.gms,SBB,NA,1,1887,721,296,4709,12,8,4,6097.11072552972,10240.2962188783,1324.696,1324.7290001018,0,6598,0

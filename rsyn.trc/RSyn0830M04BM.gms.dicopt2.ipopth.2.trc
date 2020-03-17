@@ -2,4 +2,4 @@
 * GamsSolve
 * InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
 * ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-RSyn0830M04BM.gms,DICOPT2,2,1,3193,1241,496,7901,80,8,1,2529.07342141223,2529.07342141223,12.494,12.5660000368953,103912,NA,0
+RSyn0830M04BM.gms,DICOPT2,2,1,3193,1241,496,7901,80,8,1,2529.07342141839,2529.07342141839,17.362,17.454999871552,102766,NA,0
