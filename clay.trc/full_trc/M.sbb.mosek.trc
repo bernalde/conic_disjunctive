@@ -1,0 +1,42 @@
+
+* Trace Record Definition
+* GamsSolve
+* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
+* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
+CLay0203M.gms,SBB,NA,0,55,31,18,169,48,1,1,41573.2608437934,41573.2608437934,3.218,3.22799999266863,5046,290,0
+
+* Trace Record Definition
+* GamsSolve
+* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
+* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
+CLay0204M.gms,SBB,NA,0,91,53,32,285,64,8,4,6900.00000000639,4530.00000106338,16.323,16.337000252679,14757,999,0
+
+* Trace Record Definition
+* GamsSolve
+* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
+* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
+CLay0205M.gms,SBB,NA,0,136,81,50,431,80,14,4,0,3337.50000000296,22.327,22.3399996524677,16021,999,0
+
+* Trace Record Definition
+* GamsSolve
+* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
+* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
+CLay0303M.gms,SBB,NA,0,67,34,21,208,72,1,1,26669.1039312046,26669.1039312046,6.77,6.77999993786216,6775,364,0
+
+* Trace Record Definition
+* GamsSolve
+* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
+* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
+CLay0304M.gms,SBB,NA,0,107,57,36,337,96,14,4,0,10572.8144618428,20.113,20.1240000547841,18938,999,0
+
+* Trace Record Definition
+* GamsSolve
+* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
+* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
+CLay0305M.gms,SBB,NA,0,156,86,55,496,120,14,4,0,4367.49974608331,22.492,22.5020002573729,16407,999,0
+
+* Trace Record Definition
+* GamsSolve
+* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
+* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
+CLay0405M.gms,SBB,NA,0,156,86,55,496,120,14,4,0,4367.49974608331,21.436,21.447000070475,16407,999,0

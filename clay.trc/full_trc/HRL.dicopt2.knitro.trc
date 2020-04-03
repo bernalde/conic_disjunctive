@@ -1,0 +1,42 @@
+
+* Trace Record Definition
+* GamsSolve
+* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
+* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
+CLay0203HRL.gms,DICOPT2,2,0,133,91,18,367,72,8,1,41572.7440323308,41572.7440323308,0.557,0.616999645717442,6961,NA,0
+
+* Trace Record Definition
+* GamsSolve
+* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
+* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
+CLay0204HRL.gms,DICOPT2,2,0,235,165,32,653,96,8,1,6545.00020709972,6545.00020709972,0.743,0.77700053807348,22796,NA,0
+
+* Trace Record Definition
+* GamsSolve
+* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
+* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
+CLay0205HRL.gms,DICOPT2,2,0,366,261,50,1021,120,8,1,8092.50000636448,8092.50000636448,11.24,11.2800000468269,266780,NA,0
+
+* Trace Record Definition
+* GamsSolve
+* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
+* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
+CLay0303HRL.gms,DICOPT2,2,0,151,100,21,424,108,8,1,26667.7709442452,26667.7709442452,3.596,3.652000031434,8546,NA,0
+
+* Trace Record Definition
+* GamsSolve
+* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
+* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
+CLay0304HRL.gms,DICOPT2,2,0,259,177,36,729,144,8,1,40261.8568099562,40261.8568099562,10.471,10.5430000461638,55369,NA,0
+
+* Trace Record Definition
+* GamsSolve
+* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
+* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
+CLay0305HRL.gms,DICOPT2,2,0,396,276,55,1116,180,8,1,8092.5000136872,8092.5000136872,10.005,10.0399997318164,227444,NA,0
+
+* Trace Record Definition
+* GamsSolve
+* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
+* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
+CLay0405HRL.gms,DICOPT2,2,0,396,276,55,1116,180,8,1,8092.5000136872,8092.5000136872,10.079,10.1130002411082,227444,NA,0
