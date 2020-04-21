@@ -1,7 +1,7 @@
 execseed =         1;
-set      k               number of clusters              /1*3/
-         i               number of points                /1*10/
-         j               number of dimensions            /1*2/
+set      k               number of clusters              /1*3/ 
+         i               number of points                /1*10/ 
+         j               number of dimensions            /1*2/ 
 ;
 alias(i,ii);
 alias(j,jj);

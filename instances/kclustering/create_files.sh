@@ -2,13 +2,13 @@ FILENAME="random_"
 K1="3"
 J1="10"
 L1="2"
-for K in '3' '5' '10'
+for K in '3' '5'
 do
 for J in '10' '20'
 do
 for L in '2' '3' '5'
 do
-for REFOR in 'HR' 'HRc' 'HR2conv' 'HR2' 'HRL' 'HRE'
+for REFOR in 'BM'
 do
   cp ${FILENAME}"$K1"'_'"$J1"'_'"$L1"'_'"$REFOR"'_1.gms' ${FILENAME}"$K"'_'"$J"'_'"$L"'_'"$REFOR"'_1.gms'
   sed -i '2s:.*:set      k               number of clusters              /1*'"$K"'/ :' ${FILENAME}"$K"'_'"$J"'_'"$L"'_'"$REFOR"'_1.gms'
