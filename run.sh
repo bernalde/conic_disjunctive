@@ -80,11 +80,11 @@ function runsolveropt ()
 }
 
 # run sbb subsolvers
-#runsolveropt sbb cplex 0 1
+runsolveropt sbb cplex 0 1
 #runsolveropt sbb gurobi 0 1
 #runsolveropt sbb ipopth 0 0
 #runsolveropt sbb conopt 0 0
-runsolveropt sbb mosek 0 1
+#runsolveropt sbb mosek 0 1
 #runsolveropt sbb knitro 0 0
 
 # run global minlp solvers
@@ -93,18 +93,18 @@ runsolveropt sbb mosek 0 1
 #runsolveropt antigone antigone 0 0
 
 # run milp solvers
-#runsolveropt cplex cplex 0 1
+runsolveropt cplex cplex 0 1
 #runsolveropt gurobi gurobi 0 1
 
 # run MOSEK with and without OA
-#runsolveropt mosek mosek 0 1
-#runsolveropt mosek mosek 2 1
+runsolveropt mosek mosek 0 1
+runsolveropt mosek mosek 2 1
 
 # run dicopt subsolvers
 #runsolveropt dicopt2 conopt 2 0
 #runsolveropt dicopt2 ipopth 2 0
 #runsolveropt dicopt2 knitro 2 0
-#runsolveropt dicopt2 mosek 2 1
+runsolveropt dicopt2 mosek 2 1
 
 # run knitro
 #runsolveropt knitro knitro 0 0
