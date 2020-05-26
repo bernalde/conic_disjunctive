@@ -1,1 +1,0 @@
-gmsba_us.run "/home/bernalde/Repositories/conic_disjunctive/225k/" "/home/bernalde/Repositories/conic_disjunctive/" $1 "/home/bernalde/Repositories/conic_disjunctive/225k/gamscntr.dat" "/home/bernalde/gams/gams28.2_linux_x64_64_sfx/" "BARON"

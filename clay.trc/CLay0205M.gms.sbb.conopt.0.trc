@@ -2,4 +2,4 @@
 * GamsSolve
 * InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
 * ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-CLay0205M.gms,SBB,NA,0,136,81,50,431,80,8,4,9330,2430,3.488,3.49800016265363,9808,999,0
+CLay0205M.gms,SBB,NA,0,136,81,50,431,80,8,4,8290,5602.5,48.914,48.9259994588792,132512,13651,0
