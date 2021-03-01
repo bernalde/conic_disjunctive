@@ -2,3 +2,4 @@
 qsub_files/*
 *.o*
 *.e*
+.vscode/*
