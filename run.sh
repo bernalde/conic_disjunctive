@@ -2,14 +2,14 @@
 
 GAMS="/home/bernalde/gams/gams28.2_linux_x64_64_sfx/gams"
 QSUB="/usr/local/bin/qsub"
+TESTSET="clay"
 if [ $USER == debernal ] ; then
     INSTANCEDIR=/home/debernal/Perspective/instances
     EXPDIR=/home/bernalde/Repositories/conic_disjunctive
 else
-    INSTANCEDIR=/home/bernalde/Repositories/conic_disjunctive/instances/logistic
+    INSTANCEDIR=/home/bernalde/Repositories/conic_disjunctive/instances/${TESTSET}
     EXPDIR=/home/bernalde/Repositories/conic_disjunctive
 fi
-TESTSET="logistic"
 SKIPEXISTING=1   # whether to skip runs for which a trace file already exists
 PARALLEL=1 # to use in Euler server by submitting runs to torque
 GAMSOPTS="reslim=3600 threads=1 optcr=1e-5 iterlim=1e9 LO=3 nodlim=1000000"
@@ -101,9 +101,9 @@ runsolveropt antigone antigone 0 0
 #runsolveropt mosek mosek 2 0
 
 # run dicopt subsolvers
-runsolveropt dicopt2 conopt 2 0
-runsolveropt dicopt2 ipopth 2 0
-runsolveropt dicopt2 knitro 2 0
+#runsolveropt dicopt2 conopt 2 0
+#runsolveropt dicopt2 ipopth 2 0
+#runsolveropt dicopt2 knitro 2 0
 #runsolveropt dicopt2 mosek 2 0
 
 # run knitro

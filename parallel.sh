@@ -10,9 +10,9 @@
 #PBS -l mem=3gb
 
 # Set name of job
-#PBS -N logistic.logistic_5_20_3_HRE_9.gms.knitro.knitro.0
+#PBS -N clay.CLay0405HR.gms.knitro.knitro.0
 
 # Use submission environment
 #PBS -V
 cd /home/bernalde/Repositories/conic_disjunctive
-/home/bernalde/gams/gams28.2_linux_x64_64_sfx/gams /home/bernalde/Repositories/conic_disjunctive/instances/logistic/logistic_5_20_3_HRE_9.gms MINLP=knitro NLP=knitro OPTFILE=0 reslim=3600 threads=1 optcr=1e-5 iterlim=1e9 LO=3 nodlim=1000000 LF=logistic.log/logistic_5_20_3_HRE_9.gms.knitro.knitro.0.log O=logistic.log/logistic_5_20_3_HRE_9.gms.knitro.knitro.0.lst TRACE=logistic.trc/logistic_5_20_3_HRE_9.gms.knitro.knitro.0.trc --TYPE=MINLP
+/home/bernalde/gams/gams28.2_linux_x64_64_sfx/gams /home/bernalde/Repositories/conic_disjunctive/instances/clay/CLay0405HR.gms MINLP=knitro NLP=knitro OPTFILE=0 reslim=3600 threads=1 optcr=1e-5 iterlim=1e9 LO=3 nodlim=1000000 LF=clay.log/CLay0405HR.gms.knitro.knitro.0.log O=clay.log/CLay0405HR.gms.knitro.knitro.0.lst TRACE=clay.trc/CLay0405HR.gms.knitro.knitro.0.trc --TYPE=MINLP

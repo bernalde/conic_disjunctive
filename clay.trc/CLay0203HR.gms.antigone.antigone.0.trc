@@ -2,4 +2,4 @@
 * GamsSolve
 * InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
 * ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-CLay0203HR.gms,ANTIGONE,NA,0,133,91,18,367,72,13,13,NA,NA,NA,0.0109999906271696,NA,NA,NA
+CLay0203HR.gms,ANTIGONE,NA,0,133,91,18,367,72,8,1,41572.9020893006,41572.4863602797,1.001,0.705000199377537,4,1,0
