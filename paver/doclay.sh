@@ -1,5 +1,3 @@
-#!/bin/bash
-
 set -e
 
 # use 3600s if solver failed

@@ -1,0 +1,14 @@
+* Trace Record Definition
+* GamsSolve
+* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
+* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
+proc_100,sbbconopthrl,NA,0,1066,549,121,2429,200,10,1,0,1E51,0.848,0.859000068157911,750,2,0
+proc_100b,sbbconopthrl,NA,0,943,488,121,2224,200,10,1,0,1E51,1.601,1.61399999633431,1494,24,0
+proc_21,sbbconopthrl,NA,0,198,104,21,428,30,10,1,0,15.7504966953497,0.066,0.0760003924369812,112,2,1
+proc_21b,sbbconopthrl,NA,0,162,86,21,368,30,10,1,0,1E51,0.14,0.150000443682075,379,10,0
+proc_31,sbbconopthrl,NA,0,376,199,41,830,62,10,1,0,1E51,0.149,0.159000093117356,246,2,0
+proc_31b,sbbconopthrl,NA,0,316,169,41,730,62,10,1,0,1E51,0.134,0.143000506795943,315,8,0
+proc_36,sbbconopthrl,NA,0,416,219,46,925,72,10,1,0,1E51,0.163,0.17299996688962,289,2,0
+proc_36b,sbbconopthrl,NA,0,356,189,46,825,72,10,1,0,1E51,0.291,0.300999800674617,519,18,0
+proc_48,sbbconopthrl,NA,0,552,288,61,1239,96,10,1,0,1E51,0.394,0.402999599464238,364,2,0
+proc_48b,sbbconopthrl,NA,0,474,249,61,1109,96,10,1,0,1E51,0.227,0.23699956946075,440,10,0

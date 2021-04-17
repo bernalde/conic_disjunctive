@@ -274,7 +274,7 @@ alpha.lo=0;
 
 MODEL prob / ALL / ;
 
-option minlp = mosek;
+*option minlp = mosek;
 
 
 SOLVE prob USING minlp MINIMIZING alpha ;

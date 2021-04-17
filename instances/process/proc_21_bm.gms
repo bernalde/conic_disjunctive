@@ -263,7 +263,7 @@ alpha.lo=0;
 
 MODEL prob / ALL / ;
 
-option minlp = baron;
+*option minlp = baron;
 
 
 SOLVE prob USING minlp MINIMIZING alpha ;

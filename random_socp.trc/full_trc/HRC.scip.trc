@@ -1,540 +1,94 @@
-
 * Trace Record Definition
 * GamsSolve
 * InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
 * ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_10_10_10_HRC_1.gms,SCIP,NA,0,2311,1211,100,7611,1200,1,1,-4706.46141621352,-4706.46141621352,1492.855,1492.93900039047,5055433,1657,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_10_10_10_HRC_10.gms,SCIP,NA,0,2311,1211,100,7611,1200,1,1,-3967.13200481457,-3967.13200481457,2281.527,2281.63099964149,8497683,5186,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_10_10_10_HRC_2.gms,SCIP,NA,0,2311,1211,100,7611,1200,1,1,-4098.72787179953,-4098.72787179953,1282.107,1282.19199988525,5008667,1010,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_10_10_10_HRC_3.gms,SCIP,NA,0,2311,1211,100,7611,1200,1,1,-5778.96762811668,-5778.96762811668,661.436,661.52199965436,2335066,807,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_10_10_10_HRC_4.gms,SCIP,NA,0,2311,1211,100,7611,1200,1,1,-5001.56059667538,-5001.56059667538,2070.809,2070.91600019485,6881123,4526,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_10_10_10_HRC_5.gms,SCIP,NA,0,2311,1211,100,7611,1200,1,1,-6073.75650581786,-6073.75650581786,2990.301,2990.41400011629,10496895,6303,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_10_10_10_HRC_6.gms,SCIP,NA,0,2311,1211,100,7611,1200,1,1,-6032.01712046901,-6032.01712046901,1465.969,1466.05999963358,5117765,1815,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_10_10_10_HRC_7.gms,SCIP,NA,0,2311,1211,100,7611,1200,1,1,-3738.58780534144,-3738.58780534144,1160.848,1160.93199953903,4361532,1268,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_10_10_10_HRC_8.gms,SCIP,NA,0,2311,1211,100,7611,1200,1,1,-4713.01794388262,-4713.01794388262,2308.84,2308.9349999791,8831575,2760,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_10_10_10_HRC_9.gms,SCIP,NA,0,2311,1211,100,7611,1200,1,1,-5109.31837069028,-5109.31837069028,919.33,919.417999475263,3355184,1550,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_10_10_5_HRC_1.gms,SCIP,NA,0,1261,706,100,4056,700,1,1,-2819.86134054157,-2819.86134054157,121.725,121.794999833219,432396,101,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_10_10_5_HRC_10.gms,SCIP,NA,0,1261,706,100,4056,700,1,1,-2770.40294493819,-2770.40294493819,128.296,128.369000460953,509766,160,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_10_10_5_HRC_2.gms,SCIP,NA,0,1261,706,100,4056,700,1,1,-2544.64203071821,-2544.6420307182,111.977,112.050000135787,478256,57,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_10_10_5_HRC_3.gms,SCIP,NA,0,1261,706,100,4056,700,1,1,-3241.1033045411,-3241.10330454108,201.351,201.416999939829,854663,21,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_10_10_5_HRC_4.gms,SCIP,NA,0,1261,706,100,4056,700,1,1,-3067.70782865423,-3067.70782865423,218.832,218.905999953859,904761,42,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_10_10_5_HRC_5.gms,SCIP,NA,0,1261,706,100,4056,700,8,1,-3743.1655373918,-3743.16611349645,248.774,248.840999649838,1047668,67,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_10_10_5_HRC_6.gms,SCIP,NA,0,1261,706,100,4056,700,8,1,-4287.8413651462,-4287.84187756287,191.538,191.603999957442,896634,11,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_10_10_5_HRC_7.gms,SCIP,NA,0,1261,706,100,4056,700,1,1,-3179.91986146777,-3179.91986146777,237.398,237.466999911703,993989,39,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_10_10_5_HRC_8.gms,SCIP,NA,0,1261,706,100,4056,700,1,1,-2646.09335827463,-2646.09335827463,122.901,122.966000321321,542982,23,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_10_10_5_HRC_9.gms,SCIP,NA,0,1261,706,100,4056,700,8,1,-3434.28302365087,-3434.30777017336,345.22,345.285999937914,1500087,11,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_10_5_10_HRC_1.gms,SCIP,NA,0,1211,611,50,3861,600,1,1,-3378.61059230682,-3378.61059230682,289.109,289.170999918133,1453156,1085,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_10_5_10_HRC_10.gms,SCIP,NA,0,1211,611,50,3861,600,1,1,-2916.47315208582,-2916.47315208582,174.419,174.478000262752,868012,389,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_10_5_10_HRC_2.gms,SCIP,NA,0,1211,611,50,3861,600,1,1,-3097.06970984568,-3097.06970984568,156.298,156.362999696285,773038,433,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_10_5_10_HRC_3.gms,SCIP,NA,0,1211,611,50,3861,600,1,1,-3863.26514210889,-3863.26514210889,223.42,223.482999997213,1203965,331,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_10_5_10_HRC_4.gms,SCIP,NA,0,1211,611,50,3861,600,1,1,-3644.69938043194,-3644.69938043194,206.059,206.118999933824,1056113,658,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_10_5_10_HRC_5.gms,SCIP,NA,0,1211,611,50,3861,600,1,1,-4682.86949322468,-4682.86949322468,195.455,195.518000051379,873479,1280,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_10_5_10_HRC_6.gms,SCIP,NA,0,1211,611,50,3861,600,1,1,-4869.76529398368,-4869.76529398368,249.674,249.735000031069,1290811,582,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_10_5_10_HRC_7.gms,SCIP,NA,0,1211,611,50,3861,600,1,1,-2785.57567714322,-2785.57567714322,246.02,246.082999999635,1266993,931,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_10_5_10_HRC_8.gms,SCIP,NA,0,1211,611,50,3861,600,1,1,-3467.62032157399,-3467.62032157399,249.179,249.246000219136,1259095,686,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_10_5_10_HRC_9.gms,SCIP,NA,0,1211,611,50,3861,600,1,1,-3739.95479798757,-3739.95479798757,511.476,511.540999892168,2757967,2594,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_10_5_5_HRC_1.gms,SCIP,NA,0,661,356,50,2056,350,8,1,-2347.58979398901,-2347.59747022944,68.106,68.1629996979609,359969,21,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_10_5_5_HRC_10.gms,SCIP,NA,0,661,356,50,2056,350,8,1,-2334.32238707081,-2334.33730286749,83.321,83.3719998830929,490468,1,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_10_5_5_HRC_2.gms,SCIP,NA,0,661,356,50,2056,350,1,1,-3368.58771927719,-3368.58771927719,93.185,93.2359997648746,632944,3,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_10_5_5_HRC_3.gms,SCIP,NA,0,661,356,50,2056,350,1,1,-2923.34410072972,-2923.34410072972,63.57,63.6230003088713,371616,7,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_10_5_5_HRC_4.gms,SCIP,NA,0,661,356,50,2056,350,8,1,-2458.1607687088,-2458.16167815109,62.821,62.8729999763891,355047,9,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_10_5_5_HRC_5.gms,SCIP,NA,0,661,356,50,2056,350,8,1,-2553.2860192447,-2553.29470169647,46.169,46.2190003367141,316409,3,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_10_5_5_HRC_6.gms,SCIP,NA,0,661,356,50,2056,350,8,1,-3214.06510776277,-3214.08701470271,105.597,105.650000274181,617470,3,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_10_5_5_HRC_7.gms,SCIP,NA,0,661,356,50,2056,350,1,1,-3517.04852630658,-3517.04852630658,100.667,100.718000018969,596438,5,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_10_5_5_HRC_8.gms,SCIP,NA,0,661,356,50,2056,350,8,1,-1993.16451907415,-1993.16798506717,67.222,67.2759998822585,384623,23,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_10_5_5_HRC_9.gms,SCIP,NA,0,661,356,50,2056,350,8,1,-2743.08335222568,-2743.0959035215,57.671,57.7239997917786,351773,1,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_2_2_2_HRC_1.gms,SCIP,NA,0,31,19,4,83,16,8,1,-640.395418169773,-640.398931198619,0.04,0.0789996469393373,65,1,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_2_2_2_HRC_10.gms,SCIP,NA,0,31,19,4,83,16,8,1,-2397.95673015283,-2397.96053146286,0.042,0.080000446178019,35,1,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_2_2_2_HRC_2.gms,SCIP,NA,0,31,19,4,83,16,8,1,-2465.07163033885,-2465.07171574722,0.037,0.0749995931982994,16,1,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_2_2_2_HRC_3.gms,SCIP,NA,0,31,19,4,83,16,1,1,-875.115896399374,-875.115896399374,0.026,0.0659999437630177,15,1,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_2_2_2_HRC_4.gms,SCIP,NA,0,31,19,4,83,16,1,1,-1740.35735804171,-1740.35735804171,0.029,0.0680002849549055,24,1,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_2_2_2_HRC_5.gms,SCIP,NA,0,31,19,4,83,16,1,1,-1584.14258811559,-1584.14258811559,0.044,0.083999871276319,41,1,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_2_2_2_HRC_6.gms,SCIP,NA,0,31,19,4,83,16,8,1,-7058.05742780865,-7058.05786682448,0.09,0.129999546334147,740,1,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_2_2_2_HRC_7.gms,SCIP,NA,0,31,19,4,83,16,1,1,-1499.04461837575,-1499.04461837575,0.105,0.144999590702355,728,1,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_2_2_2_HRC_8.gms,SCIP,NA,0,31,19,4,83,16,8,1,-1472.04726681939,-1472.05158054967,0.045,0.083999871276319,36,1,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_2_2_2_HRC_9.gms,SCIP,NA,0,31,19,4,83,16,8,1,-2774.70810812497,-2774.72707766987,0.04,0.0799998175352812,34,1,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_5_10_10_HRC_1.gms,SCIP,NA,0,1156,611,50,3811,600,1,1,-5299.37244681133,-5299.37244681133,89.144,89.2009997740388,498005,197,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_5_10_10_HRC_10.gms,SCIP,NA,0,1156,611,50,3811,600,1,1,-4320.14653232535,-4320.14653232535,75.777,75.8329999633133,399239,129,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_5_10_10_HRC_2.gms,SCIP,NA,0,1156,611,50,3811,600,1,1,-3690.91505949293,-3690.91505949293,265.259,265.323000121862,1456328,920,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_5_10_10_HRC_3.gms,SCIP,NA,0,1156,611,50,3811,600,1,1,-5609.98728905616,-5609.98728905616,70.771,70.8260001149029,332199,225,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_5_10_10_HRC_4.gms,SCIP,NA,0,1156,611,50,3811,600,1,1,-5452.30883957363,-5452.30883957363,155.606,155.666000233032,918194,432,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_5_10_10_HRC_5.gms,SCIP,NA,0,1156,611,50,3811,600,1,1,-7947.04950228583,-7947.04950228583,104.79,104.846999701113,561984,240,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_5_10_10_HRC_6.gms,SCIP,NA,0,1156,611,50,3811,600,1,1,-7898.6341441922,-7898.6341441922,117.795,117.854000162333,676801,241,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_5_10_10_HRC_7.gms,SCIP,NA,0,1156,611,50,3811,600,1,1,-5553.57918811288,-5553.57918811288,75.22,75.275999866426,429825,145,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_5_10_10_HRC_8.gms,SCIP,NA,0,1156,611,50,3811,600,1,1,-5911.93900731219,-5911.93900731219,68.432,68.4910003328696,345532,95,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_5_10_10_HRC_9.gms,SCIP,NA,0,1156,611,50,3811,600,1,1,-5467.92951746361,-5467.92951746361,156.402,156.45999989938,842065,742,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_5_10_5_HRC_1.gms,SCIP,NA,0,631,356,50,2031,350,1,1,-3113.50358154228,-3113.50358154228,46.482,46.532999840565,303427,5,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_5_10_5_HRC_10.gms,SCIP,NA,0,631,356,50,2031,350,1,1,-2983.82929819853,-2983.82929819854,16.973,17.0269997790456,111092,17,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_5_10_5_HRC_2.gms,SCIP,NA,0,631,356,50,2031,350,1,1,-4239.08456325027,-4239.08456325027,42.995,43.0480000097305,277804,9,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_5_10_5_HRC_3.gms,SCIP,NA,0,631,356,50,2031,350,8,1,-5688.62817032918,-5688.67554791999,9.613,9.65900011360645,62745,1,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_5_10_5_HRC_4.gms,SCIP,NA,0,631,356,50,2031,350,1,1,-3814.04332362525,-3814.04332362525,63.964,64.0319996746257,397478,5,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_5_10_5_HRC_5.gms,SCIP,NA,0,631,356,50,2031,350,1,1,-3920.00294902825,-3920.00294902825,44.848,44.8980000335723,332074,73,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_5_10_5_HRC_6.gms,SCIP,NA,0,631,356,50,2031,350,1,1,-5195.3822541308,-5195.3822541308,43.179,43.2299996260554,268408,7,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_5_10_5_HRC_7.gms,SCIP,NA,0,631,356,50,2031,350,8,1,-4939.35003389116,-4939.39686969328,44.551,44.5999994874001,332599,1,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_5_10_5_HRC_8.gms,SCIP,NA,0,631,356,50,2031,350,8,1,-2275.07533252385,-2275.08560904681,27.751,27.8010002570227,196609,1,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_5_10_5_HRC_9.gms,SCIP,NA,0,631,356,50,2031,350,8,1,-4127.81468129225,-4127.84434541743,56.074,56.1260000104085,437740,5,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_5_5_10_HRC_1.gms,SCIP,NA,0,606,311,25,1936,300,1,1,-3317.60453425209,-3317.60453425209,23.1,23.1509997043759,165131,93,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_5_5_10_HRC_10.gms,SCIP,NA,0,606,311,25,1936,300,1,1,-4392.5770799242,-4392.5770799242,20.48,20.5299995373935,92094,25,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_5_5_10_HRC_2.gms,SCIP,NA,0,606,311,25,1936,300,1,1,-3491.54909364431,-3491.54909364431,22.884,22.9340004036203,158467,69,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_5_5_10_HRC_3.gms,SCIP,NA,0,606,311,25,1936,300,1,1,-4718.12669752302,-4718.12669752302,19.096,19.1459998022765,121529,77,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_5_5_10_HRC_4.gms,SCIP,NA,0,606,311,25,1936,300,1,1,-4258.80292755507,-4258.80292755507,33.259,33.3070003660396,273890,162,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_5_5_10_HRC_5.gms,SCIP,NA,0,606,311,25,1936,300,1,1,-4723.22058776066,-4723.22058776066,22.279,22.3290002904832,134889,53,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_5_5_10_HRC_6.gms,SCIP,NA,0,606,311,25,1936,300,1,1,-5261.83013524455,-5261.83013524455,22.069,22.1180001273751,164869,87,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_5_5_10_HRC_7.gms,SCIP,NA,0,606,311,25,1936,300,1,1,-4813.20093930479,-4813.20093930479,18.669,18.7170001678169,132441,62,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_5_5_10_HRC_8.gms,SCIP,NA,0,606,311,25,1936,300,1,1,-3633.2832951147,-3633.28329511469,18.794,18.8490000553429,134041,74,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_5_5_10_HRC_9.gms,SCIP,NA,0,606,311,25,1936,300,1,1,-3812.54188194957,-3812.54188194957,24.464,24.5140002574772,173551,129,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_5_5_5_HRC_1.gms,SCIP,NA,0,331,181,25,1031,175,1,1,-3119.41039992356,-3119.41039992356,10.724,10.7709999661893,87873,15,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_5_5_5_HRC_10.gms,SCIP,NA,0,331,181,25,1031,175,8,1,-2893.12721806232,-2893.12897401584,16.19,16.2349998252466,151652,1,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_5_5_5_HRC_2.gms,SCIP,NA,0,331,181,25,1031,175,1,1,-2653.72814294258,-2653.72814294258,24.652,24.6949997032061,214915,5,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_5_5_5_HRC_3.gms,SCIP,NA,0,331,181,25,1031,175,8,1,-4170.39811667828,-4170.4135375459,27.513,27.5570001220331,214728,1,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_5_5_5_HRC_4.gms,SCIP,NA,0,331,181,25,1031,175,8,1,-2355.34017253257,-2355.34172206529,4.768,4.81200052890927,42584,1,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_5_5_5_HRC_5.gms,SCIP,NA,0,331,181,25,1031,175,8,1,-2743.67977722928,-2743.68047277735,15.462,15.5090004438534,144252,9,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_5_5_5_HRC_6.gms,SCIP,NA,0,331,181,25,1031,175,1,1,-4142.50293323006,-4142.50293323006,28.309,28.354000300169,193339,7,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_5_5_5_HRC_7.gms,SCIP,NA,0,331,181,25,1031,175,1,1,-2328.26161079654,-2328.26161079654,22.666,22.7119996212423,200926,5,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_5_5_5_HRC_8.gms,SCIP,NA,0,331,181,25,1031,175,8,1,-2629.09200863089,-2629.09355311941,3.318,3.35999988019466,34877,1,0
-
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_5_5_5_HRC_9.gms,SCIP,NA,0,331,181,25,1031,175,8,1,-2146.55818430893,-2146.55927947562,8.487,8.53100004605949,54378,11,0
+socp_random_10_10_10_1,scipHRC,NA,0,2311,1211,100,7611,1200,1,1,-4706.46141621352,-4706.46141621352,1492.855,1492.93900039047,5055433,1657,0
+socp_random_10_10_10_10,scipHRC,NA,0,2311,1211,100,7611,1200,1,1,-3967.13200481457,-3967.13200481457,2281.527,2281.63099964149,8497683,5186,0
+socp_random_10_10_10_2,scipHRC,NA,0,2311,1211,100,7611,1200,1,1,-4098.72787179953,-4098.72787179953,1282.107,1282.19199988525,5008667,1010,0
+socp_random_10_10_10_3,scipHRC,NA,0,2311,1211,100,7611,1200,1,1,-5778.96762811668,-5778.96762811668,661.436,661.52199965436,2335066,807,0
+socp_random_10_10_10_4,scipHRC,NA,0,2311,1211,100,7611,1200,1,1,-5001.56059667538,-5001.56059667538,2070.809,2070.91600019485,6881123,4526,0
+socp_random_10_10_10_5,scipHRC,NA,0,2311,1211,100,7611,1200,1,1,-6073.75650581786,-6073.75650581786,2990.301,2990.41400011629,10496895,6303,0
+socp_random_10_10_10_6,scipHRC,NA,0,2311,1211,100,7611,1200,1,1,-6032.01712046901,-6032.01712046901,1465.969,1466.05999963358,5117765,1815,0
+socp_random_10_10_10_7,scipHRC,NA,0,2311,1211,100,7611,1200,1,1,-3738.58780534144,-3738.58780534144,1160.848,1160.93199953903,4361532,1268,0
+socp_random_10_10_10_8,scipHRC,NA,0,2311,1211,100,7611,1200,1,1,-4713.01794388262,-4713.01794388262,2308.84,2308.9349999791,8831575,2760,0
+socp_random_10_10_10_9,scipHRC,NA,0,2311,1211,100,7611,1200,1,1,-5109.31837069028,-5109.31837069028,919.33,919.417999475263,3355184,1550,0
+socp_random_10_10_5_1,scipHRC,NA,0,1261,706,100,4056,700,1,1,-2819.86134054157,-2819.86134054157,121.725,121.794999833219,432396,101,0
+socp_random_10_10_5_10,scipHRC,NA,0,1261,706,100,4056,700,1,1,-2770.40294493819,-2770.40294493819,128.296,128.369000460953,509766,160,0
+socp_random_10_10_5_2,scipHRC,NA,0,1261,706,100,4056,700,1,1,-2544.64203071821,-2544.6420307182,111.977,112.050000135787,478256,57,0
+socp_random_10_10_5_3,scipHRC,NA,0,1261,706,100,4056,700,1,1,-3241.1033045411,-3241.10330454108,201.351,201.416999939829,854663,21,0
+socp_random_10_10_5_4,scipHRC,NA,0,1261,706,100,4056,700,1,1,-3067.70782865423,-3067.70782865423,218.832,218.905999953859,904761,42,0
+socp_random_10_10_5_5,scipHRC,NA,0,1261,706,100,4056,700,8,1,-3743.1655373918,-3743.16611349645,248.774,248.840999649838,1047668,67,0
+socp_random_10_10_5_6,scipHRC,NA,0,1261,706,100,4056,700,8,1,-4287.8413651462,-4287.84187756287,191.538,191.603999957442,896634,11,0
+socp_random_10_10_5_7,scipHRC,NA,0,1261,706,100,4056,700,1,1,-3179.91986146777,-3179.91986146777,237.398,237.466999911703,993989,39,0
+socp_random_10_10_5_8,scipHRC,NA,0,1261,706,100,4056,700,1,1,-2646.09335827463,-2646.09335827463,122.901,122.966000321321,542982,23,0
+socp_random_10_10_5_9,scipHRC,NA,0,1261,706,100,4056,700,8,1,-3434.28302365087,-3434.30777017336,345.22,345.285999937914,1500087,11,0
+socp_random_10_5_10_1,scipHRC,NA,0,1211,611,50,3861,600,1,1,-3378.61059230682,-3378.61059230682,289.109,289.170999918133,1453156,1085,0
+socp_random_10_5_10_10,scipHRC,NA,0,1211,611,50,3861,600,1,1,-2916.47315208582,-2916.47315208582,174.419,174.478000262752,868012,389,0
+socp_random_10_5_10_2,scipHRC,NA,0,1211,611,50,3861,600,1,1,-3097.06970984568,-3097.06970984568,156.298,156.362999696285,773038,433,0
+socp_random_10_5_10_3,scipHRC,NA,0,1211,611,50,3861,600,1,1,-3863.26514210889,-3863.26514210889,223.42,223.482999997213,1203965,331,0
+socp_random_10_5_10_4,scipHRC,NA,0,1211,611,50,3861,600,1,1,-3644.69938043194,-3644.69938043194,206.059,206.118999933824,1056113,658,0
+socp_random_10_5_10_5,scipHRC,NA,0,1211,611,50,3861,600,1,1,-4682.86949322468,-4682.86949322468,195.455,195.518000051379,873479,1280,0
+socp_random_10_5_10_6,scipHRC,NA,0,1211,611,50,3861,600,1,1,-4869.76529398368,-4869.76529398368,249.674,249.735000031069,1290811,582,0
+socp_random_10_5_10_7,scipHRC,NA,0,1211,611,50,3861,600,1,1,-2785.57567714322,-2785.57567714322,246.02,246.082999999635,1266993,931,0
+socp_random_10_5_10_8,scipHRC,NA,0,1211,611,50,3861,600,1,1,-3467.62032157399,-3467.62032157399,249.179,249.246000219136,1259095,686,0
+socp_random_10_5_10_9,scipHRC,NA,0,1211,611,50,3861,600,1,1,-3739.95479798757,-3739.95479798757,511.476,511.540999892168,2757967,2594,0
+socp_random_10_5_5_1,scipHRC,NA,0,661,356,50,2056,350,8,1,-2347.58979398901,-2347.59747022944,68.106,68.1629996979609,359969,21,0
+socp_random_10_5_5_10,scipHRC,NA,0,661,356,50,2056,350,8,1,-2334.32238707081,-2334.33730286749,83.321,83.3719998830929,490468,1,0
+socp_random_10_5_5_2,scipHRC,NA,0,661,356,50,2056,350,1,1,-3368.58771927719,-3368.58771927719,93.185,93.2359997648746,632944,3,0
+socp_random_10_5_5_3,scipHRC,NA,0,661,356,50,2056,350,1,1,-2923.34410072972,-2923.34410072972,63.57,63.6230003088713,371616,7,0
+socp_random_10_5_5_4,scipHRC,NA,0,661,356,50,2056,350,8,1,-2458.1607687088,-2458.16167815109,62.821,62.8729999763891,355047,9,0
+socp_random_10_5_5_5,scipHRC,NA,0,661,356,50,2056,350,8,1,-2553.2860192447,-2553.29470169647,46.169,46.2190003367141,316409,3,0
+socp_random_10_5_5_6,scipHRC,NA,0,661,356,50,2056,350,8,1,-3214.06510776277,-3214.08701470271,105.597,105.650000274181,617470,3,0
+socp_random_10_5_5_7,scipHRC,NA,0,661,356,50,2056,350,1,1,-3517.04852630658,-3517.04852630658,100.667,100.718000018969,596438,5,0
+socp_random_10_5_5_8,scipHRC,NA,0,661,356,50,2056,350,8,1,-1993.16451907415,-1993.16798506717,67.222,67.2759998822585,384623,23,0
+socp_random_10_5_5_9,scipHRC,NA,0,661,356,50,2056,350,8,1,-2743.08335222568,-2743.0959035215,57.671,57.7239997917786,351773,1,0
+socp_random_2_2_2_1,scipHRC,NA,0,31,19,4,83,16,8,1,-640.395418169773,-640.398931198619,0.04,0.0789996469393373,65,1,0
+socp_random_2_2_2_10,scipHRC,NA,0,31,19,4,83,16,8,1,-2397.95673015283,-2397.96053146286,0.042,0.080000446178019,35,1,0
+socp_random_2_2_2_2,scipHRC,NA,0,31,19,4,83,16,8,1,-2465.07163033885,-2465.07171574722,0.037,0.0749995931982994,16,1,0
+socp_random_2_2_2_3,scipHRC,NA,0,31,19,4,83,16,1,1,-875.115896399374,-875.115896399374,0.026,0.0659999437630177,15,1,0
+socp_random_2_2_2_4,scipHRC,NA,0,31,19,4,83,16,1,1,-1740.35735804171,-1740.35735804171,0.029,0.0680002849549055,24,1,0
+socp_random_2_2_2_5,scipHRC,NA,0,31,19,4,83,16,1,1,-1584.14258811559,-1584.14258811559,0.044,0.083999871276319,41,1,0
+socp_random_2_2_2_6,scipHRC,NA,0,31,19,4,83,16,8,1,-7058.05742780865,-7058.05786682448,0.09,0.129999546334147,740,1,0
+socp_random_2_2_2_7,scipHRC,NA,0,31,19,4,83,16,1,1,-1499.04461837575,-1499.04461837575,0.105,0.144999590702355,728,1,0
+socp_random_2_2_2_8,scipHRC,NA,0,31,19,4,83,16,8,1,-1472.04726681939,-1472.05158054967,0.045,0.083999871276319,36,1,0
+socp_random_2_2_2_9,scipHRC,NA,0,31,19,4,83,16,8,1,-2774.70810812497,-2774.72707766987,0.04,0.0799998175352812,34,1,0
+socp_random_5_10_10_1,scipHRC,NA,0,1156,611,50,3811,600,1,1,-5299.37244681133,-5299.37244681133,89.144,89.2009997740388,498005,197,0
+socp_random_5_10_10_10,scipHRC,NA,0,1156,611,50,3811,600,1,1,-4320.14653232535,-4320.14653232535,75.777,75.8329999633133,399239,129,0
+socp_random_5_10_10_2,scipHRC,NA,0,1156,611,50,3811,600,1,1,-3690.91505949293,-3690.91505949293,265.259,265.323000121862,1456328,920,0
+socp_random_5_10_10_3,scipHRC,NA,0,1156,611,50,3811,600,1,1,-5609.98728905616,-5609.98728905616,70.771,70.8260001149029,332199,225,0
+socp_random_5_10_10_4,scipHRC,NA,0,1156,611,50,3811,600,1,1,-5452.30883957363,-5452.30883957363,155.606,155.666000233032,918194,432,0
+socp_random_5_10_10_5,scipHRC,NA,0,1156,611,50,3811,600,1,1,-7947.04950228583,-7947.04950228583,104.79,104.846999701113,561984,240,0
+socp_random_5_10_10_6,scipHRC,NA,0,1156,611,50,3811,600,1,1,-7898.6341441922,-7898.6341441922,117.795,117.854000162333,676801,241,0
+socp_random_5_10_10_7,scipHRC,NA,0,1156,611,50,3811,600,1,1,-5553.57918811288,-5553.57918811288,75.22,75.275999866426,429825,145,0
+socp_random_5_10_10_8,scipHRC,NA,0,1156,611,50,3811,600,1,1,-5911.93900731219,-5911.93900731219,68.432,68.4910003328696,345532,95,0
+socp_random_5_10_10_9,scipHRC,NA,0,1156,611,50,3811,600,1,1,-5467.92951746361,-5467.92951746361,156.402,156.45999989938,842065,742,0
+socp_random_5_10_5_1,scipHRC,NA,0,631,356,50,2031,350,1,1,-3113.50358154228,-3113.50358154228,46.482,46.532999840565,303427,5,0
+socp_random_5_10_5_10,scipHRC,NA,0,631,356,50,2031,350,1,1,-2983.82929819853,-2983.82929819854,16.973,17.0269997790456,111092,17,0
+socp_random_5_10_5_2,scipHRC,NA,0,631,356,50,2031,350,1,1,-4239.08456325027,-4239.08456325027,42.995,43.0480000097305,277804,9,0
+socp_random_5_10_5_3,scipHRC,NA,0,631,356,50,2031,350,8,1,-5688.62817032918,-5688.67554791999,9.613,9.65900011360645,62745,1,0
+socp_random_5_10_5_4,scipHRC,NA,0,631,356,50,2031,350,1,1,-3814.04332362525,-3814.04332362525,63.964,64.0319996746257,397478,5,0
+socp_random_5_10_5_5,scipHRC,NA,0,631,356,50,2031,350,1,1,-3920.00294902825,-3920.00294902825,44.848,44.8980000335723,332074,73,0
+socp_random_5_10_5_6,scipHRC,NA,0,631,356,50,2031,350,1,1,-5195.3822541308,-5195.3822541308,43.179,43.2299996260554,268408,7,0
+socp_random_5_10_5_7,scipHRC,NA,0,631,356,50,2031,350,8,1,-4939.35003389116,-4939.39686969328,44.551,44.5999994874001,332599,1,0
+socp_random_5_10_5_8,scipHRC,NA,0,631,356,50,2031,350,8,1,-2275.07533252385,-2275.08560904681,27.751,27.8010002570227,196609,1,0
+socp_random_5_10_5_9,scipHRC,NA,0,631,356,50,2031,350,8,1,-4127.81468129225,-4127.84434541743,56.074,56.1260000104085,437740,5,0
+socp_random_5_5_10_1,scipHRC,NA,0,606,311,25,1936,300,1,1,-3317.60453425209,-3317.60453425209,23.1,23.1509997043759,165131,93,0
+socp_random_5_5_10_10,scipHRC,NA,0,606,311,25,1936,300,1,1,-4392.5770799242,-4392.5770799242,20.48,20.5299995373935,92094,25,0
+socp_random_5_5_10_2,scipHRC,NA,0,606,311,25,1936,300,1,1,-3491.54909364431,-3491.54909364431,22.884,22.9340004036203,158467,69,0
+socp_random_5_5_10_3,scipHRC,NA,0,606,311,25,1936,300,1,1,-4718.12669752302,-4718.12669752302,19.096,19.1459998022765,121529,77,0
+socp_random_5_5_10_4,scipHRC,NA,0,606,311,25,1936,300,1,1,-4258.80292755507,-4258.80292755507,33.259,33.3070003660396,273890,162,0
+socp_random_5_5_10_5,scipHRC,NA,0,606,311,25,1936,300,1,1,-4723.22058776066,-4723.22058776066,22.279,22.3290002904832,134889,53,0
+socp_random_5_5_10_6,scipHRC,NA,0,606,311,25,1936,300,1,1,-5261.83013524455,-5261.83013524455,22.069,22.1180001273751,164869,87,0
+socp_random_5_5_10_7,scipHRC,NA,0,606,311,25,1936,300,1,1,-4813.20093930479,-4813.20093930479,18.669,18.7170001678169,132441,62,0
+socp_random_5_5_10_8,scipHRC,NA,0,606,311,25,1936,300,1,1,-3633.2832951147,-3633.28329511469,18.794,18.8490000553429,134041,74,0
+socp_random_5_5_10_9,scipHRC,NA,0,606,311,25,1936,300,1,1,-3812.54188194957,-3812.54188194957,24.464,24.5140002574772,173551,129,0
+socp_random_5_5_5_1,scipHRC,NA,0,331,181,25,1031,175,1,1,-3119.41039992356,-3119.41039992356,10.724,10.7709999661893,87873,15,0
+socp_random_5_5_5_10,scipHRC,NA,0,331,181,25,1031,175,8,1,-2893.12721806232,-2893.12897401584,16.19,16.2349998252466,151652,1,0
+socp_random_5_5_5_2,scipHRC,NA,0,331,181,25,1031,175,1,1,-2653.72814294258,-2653.72814294258,24.652,24.6949997032061,214915,5,0
+socp_random_5_5_5_3,scipHRC,NA,0,331,181,25,1031,175,8,1,-4170.39811667828,-4170.4135375459,27.513,27.5570001220331,214728,1,0
+socp_random_5_5_5_4,scipHRC,NA,0,331,181,25,1031,175,8,1,-2355.34017253257,-2355.34172206529,4.768,4.81200052890927,42584,1,0
+socp_random_5_5_5_5,scipHRC,NA,0,331,181,25,1031,175,8,1,-2743.67977722928,-2743.68047277735,15.462,15.5090004438534,144252,9,0
+socp_random_5_5_5_6,scipHRC,NA,0,331,181,25,1031,175,1,1,-4142.50293323006,-4142.50293323006,28.309,28.354000300169,193339,7,0
+socp_random_5_5_5_7,scipHRC,NA,0,331,181,25,1031,175,1,1,-2328.26161079654,-2328.26161079654,22.666,22.7119996212423,200926,5,0
+socp_random_5_5_5_8,scipHRC,NA,0,331,181,25,1031,175,8,1,-2629.09200863089,-2629.09355311941,3.318,3.35999988019466,34877,1,0
+socp_random_5_5_5_9,scipHRC,NA,0,331,181,25,1031,175,8,1,-2146.55818430893,-2146.55927947562,8.487,8.53100004605949,54378,11,0
