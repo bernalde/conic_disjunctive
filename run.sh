@@ -2,7 +2,7 @@
 
 GAMS="/home/bernalde/gams/gams28.2_linux_x64_64_sfx/gams"
 QSUB="/usr/local/bin/qsub"
-TESTSET="clay"
+TESTSET="kclustering"
 if [ $USER == debernal ] ; then
     INSTANCEDIR=/home/debernal/Perspective/instances
     EXPDIR=/home/bernalde/Repositories/conic_disjunctive
@@ -82,23 +82,23 @@ function runsolveropt ()
 # run sbb subsolvers
 #runsolveropt sbb cplex 0 1
 #runsolveropt sbb gurobi 0 1
-runsolveropt sbb ipopth 0 0
-runsolveropt sbb conopt 0 0
-#runsolveropt sbb mosek 0 0
+#runsolveropt sbb ipopth 0 0
+#runsolveropt sbb conopt 0 0
+runsolveropt sbb mosek 0 0
 runsolveropt sbb knitro 0 0
 
 # run global minlp solvers
 runsolveropt baron baron 0 0
-runsolveropt scip scip 0 0
-runsolveropt antigone antigone 0 0
+#runsolveropt scip scip 0 0
+#runsolveropt antigone antigone 0 0
 
 # run milp solvers
-#runsolveropt cplex cplex 0 1
+runsolveropt cplex cplex 0 1
 #runsolveropt gurobi gurobi 0 1
 
 # run MOSEK with and without OA
-#runsolveropt mosek mosek 0 0
-#runsolveropt mosek mosek 2 0
+runsolveropt mosek mosek 0 0
+runsolveropt mosek mosek 2 0
 
 # run dicopt subsolvers
 #runsolveropt dicopt2 conopt 2 0
