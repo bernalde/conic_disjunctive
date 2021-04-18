@@ -2,3 +2,4 @@
 * GamsSolve
 * InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
 * ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
+random_10_5_10_BMlog_3.gms,KNITRO,NA,0,61,62,50,661,50,8,1,-15.1643161763434,-15.1643161758489,4.233,4.24900003708899,0,861,0

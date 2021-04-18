@@ -2,3 +2,4 @@
 * GamsSolve
 * InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
 * ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
+random_5_10_5_BMlogc_4.gms,BARON,NA,0,156,207,50,656,100,8,1,-25.2156264748219,-25.2158786336,0.26,0.300999800674617,0,1,0
