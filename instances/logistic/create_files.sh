@@ -5,7 +5,7 @@ FILENAME="logistic_"
 K1="2"
 J1="20"
 L1="1"
-K="2"
+K="10"
 J="20"
 L="2"
 for REFOR in 'BM' 'BMc' 'HRS' 'HRc' 'HRE' 'HRL'
