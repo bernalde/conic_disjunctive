@@ -135,15 +135,15 @@ equations cons_p1, cons_p2, cons_p3, cons_n1, cons_n2, cons_n3, extra_p1, extra_
 cons_n1(n).. u_n(n) + v_n(n) - 1 =l= M(n)*(y(n));
 cons_n2(n).. v_n(n) =g= e_n1(n)*exp(exp_n1(n)/e_n1(n));
 cons_n3(n).. u_n(n) =g= e_n2(n)*exp(exp_n2(n)/e_n2(n));
-extra_n1(n).. exp_n1(n) =e= -t(n);
-extra_n2(n).. exp_n2(n) =e= (s_p(n) + s_n(n))-t(n);
+extra_n1(n).. exp_n1(n) =e= -t(n) - M(n)*(y(n));
+extra_n2(n).. exp_n2(n) =e= (s_p(n) + s_n(n))-t(n) - M(n)*(y(n));
 
 * Second side of the disjunction disaggregation. Positive deviation.
 cons_p1(n).. u_p(n) + v_p(n) - 1 =l= M(n)*(1-y(n));
 cons_p2(n).. v_p(n) =g= e_p1(n)*exp(exp_p1(n)/e_p1(n));
 cons_p3(n).. u_p(n) =g= e_p2(n)*exp(exp_p2(n)/e_p2(n));
-extra_p1(n).. exp_p1(n) =e= -t(n);
-extra_p2(n).. exp_p2(n) =e= -(s_p(n) + s_n(n))-t(n);
+extra_p1(n).. exp_p1(n) =e= -t(n) - M(n)*(1-y(n));
+extra_p2(n).. exp_p2(n) =e= -(s_p(n) + s_n(n))-t(n) - M(n)*(1-y(n));
 
 * General hull reformulation constraints
 equations disagg_n, disagg_p, disagg_t, bound_n1, bound_p1, bound_t1, bound_n0, bound_p0, bound_t0;
@@ -187,7 +187,7 @@ cons_p_HRL(n).. (y(n)+epsilon)*log(1+exp(-(s_p_1(n)/(y(n)+epsilon) + s_n_1(n)/(y
 
 * Sawaya reformulation
 cons_n_HRS(n).. (((1-y(n))*(1-epsilon)+epsilon))*log(1+exp(s_p_0(n)/(((1-y(n))*(1-epsilon)+epsilon)) + s_n_0(n)/(((1-y(n))*(1-epsilon)+epsilon))))  - epsilon*y(n)*log(2) - t_0(n) =l= 0;
-cons_p_HRS(n).. ((y(n)*(1-epsilon)+epsilon))*log(1+exp(-(s_p_1(n)/((y(n)*(1-epsilon)+epsilon)) + s_n_1(n)/((y(n)*(1-epsilon)+epsilon))))) - epsilon*y(n)*log(2) - t_1(n) =l= 0;
+cons_p_HRS(n).. ((y(n)*(1-epsilon)+epsilon))*log(1+exp(-(s_p_1(n)/((y(n)*(1-epsilon)+epsilon)) + s_n_1(n)/((y(n)*(1-epsilon)+epsilon))))) - epsilon*(1-y(n))*log(2) - t_1(n) =l= 0;
 
 * Conic reformulation
 equation cons_n_HRC, cons_n2_HRC, cons_n3_HRC, cons_n4_HRC,
@@ -255,5 +255,5 @@ extra_n1_HRC,extra_n2_HRC
 extra_p1_HRC,extra_p2_HRC/;
 
 
-solve logistic_HRc using minlp min obj;
+solve logistic_BM using minlp min obj;
 
