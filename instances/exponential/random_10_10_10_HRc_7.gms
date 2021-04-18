@@ -11,7 +11,7 @@ set      k               disjunctions                    /1*10/
 * Random disjunctive program with constraints in disjunctions of the form
 * a1(k,i)*exp(sum(j,a4(k,i,j)*x(j))) <= a2(k,i)*z + a3(k,i)
 * log(a1(k,i)) + sum(j,a4(k,i,j)*x(j)) <= log(a2(k,i)*z + a3(k,i))
-* Kexp((a2(k,i)*z - a3(k,i))/a1(k,i),1,sum(j,a4(k,i,j)*x(j)))
+* Kexp((a2(k,i)*z + a3(k,i))/a1(k,i),1,sum(j,a4(k,i,j)*x(j)))
 
 parameters       c(j)            cost coefficient for variable j
                  a1(k,i)         coefficient for exponential term
@@ -33,7 +33,7 @@ a2(k,i)    = uniform(.01,1);
 a3(k,i)    = uniform(.01,1);
 a4(k,i,j)  = uniform(.01,1);
 x_up(j)    = 10;
-x_lo(j)    = -10;
+x_lo(j)    = 0;
 
 
 * Begin problem
@@ -99,8 +99,10 @@ ni_cone2.lo(k,i) = sum(j,a4(k,i,j)*x_lo(j)) ;
 ni_cone.up(k,i) = exp(sum(j,a4(k,i,j)*x_up(j))) ;
 ni_cone.lo(k,i) = exp(sum(j,a4(k,i,j)*x_lo(j))) ;
 
-z_up       = 10;
+*z_up       = 20;
+z_up       = ( smax( (k,i),( a1(k,i)*exp( sum(j,a4(k,i,j)*x_lo(j)) ) + a3(k,i) )/(sqr(a2(k,i))) ) );
 z_lo       = 0;
+display z_up;
 
 z.up = z_up ;
 z.lo = z_lo ;
@@ -108,8 +110,9 @@ mu.up(k,i) = z_up ;
 mu.lo(k,i) = z_lo ;
 
 *Calculation M parameter
-M(k,i) = a1(k,i)*exp(sum(j,max(a4(k,i,j)*x_up(j),a4(k,i,j)*x_lo(j)))) - a3(k,i);
-M2(k,i) =log(a1(k,i)) + sum(j,max(a4(k,i,j)*x_up(j),a4(k,i,j)*x_lo(j))) - log(a3(k,i));
+M(k,i) = a1(k,i)*exp(sum(j,max(a4(k,i,j)*x_up(j),a4(k,i,j)*x_lo(j)))) - (a2(k,i)*z_lo + a3(k,i));
+M2(k,i) =log(a1(k,i)) + sum(j,max(a4(k,i,j)*x_up(j),a4(k,i,j)*x_lo(j))) - log(a2(k,i)*z_lo + a3(k,i));
+*M2(k,i) = log(a1(k,i)*exp(sum(j,max(a4(k,i,j)*x_up(j),a4(k,i,j)*x_lo(j)))) - (a2(k,i)*z_lo + a3(k,i)));
 
 scalar epsilon /1e-8/;
 
@@ -127,7 +130,7 @@ disj_BMlogc(k,i)..         log(a1(k,i)) + sum(j,a4(k,i,j)*x(j)) =l= z_cone(k,i) 
 
 disj_HR(k,i)..             a1(k,i)*((y(k,i)*(1-epsilon)+epsilon)*exp(sum(j,a4(k,i,j)*ni(k,i,j)/(y(k,i)*(1-epsilon)+epsilon))) - epsilon*(1-y(k,i)) ) =l= a2(k,i)*mu(k,i) + a3(k,i)*y(k,i);
 
-disj_HRlog(k,i)..          y(k,i)*log(a1(k,i)) + sum(j,a4(k,i,j)*ni(k,i,j)) =l= (y(k,i)*(1-epsilon)+epsilon)*log(a2(k,i)*mu(k,i)/(y(k,i)*(1-epsilon)+epsilon) + a3(k,i)) - epsilon*log(a3(k,i))*(1-y(k,i));
+disj_HRlog(k,i)..          y(k,i)*log(a1(k,i)) + sum(j,a4(k,i,j)*ni(k,i,j)) =l= (y(k,i)*(1-epsilon)+epsilon)*log(a2(k,i)*mu(k,i)/(y(k,i)*(1-epsilon)+epsilon) + a3(k,i)) - epsilon*log(0 + a3(k,i))*(1-y(k,i));
 
 disag(k,j)..               sum(i,ni(k,i,j)) =e= x(j);
 disag2(k)..                sum(i,mu(k,i)) =e= z;
@@ -193,8 +196,8 @@ ni_cone.l(k,i) = exp(ni_cone2.l(k,i));
 
 y.l(k,i) = 1;
 
-z.l = 10;
+z.l = z_up;
 mu.l(k,i) = z.l;
 mu_cone2.l(k,i) = a2(k,i)*mu.l(k,i) + a3(k,i);
 mu_cone.l(k,i) = log(mu_cone2.l(k,i));
-Solve prob_HRc using MINLP minimizing obj;
+Solve prob_HR using MINLP minimizing obj;
