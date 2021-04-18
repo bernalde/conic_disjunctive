@@ -1,0 +1,5 @@
+* Trace Record Definition
+* GamsSolve
+* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
+* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
+logistic_10_20_1_BMc_1.gms,SBB,2,0,283,352,38,1121,160,1,1,6.23832462659546,6.23832462596392,250.819,250.834999722429,88371,4679,0

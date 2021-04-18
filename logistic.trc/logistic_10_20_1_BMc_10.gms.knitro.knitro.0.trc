@@ -2,4 +2,4 @@
 * GamsSolve
 * InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
 * ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-logistic_10_20_1_BMc_10.gms,KNITRO,NA,0,283,352,38,1041,160,8,1,6.30885678638753,6.30811582785265,414.631,414.644999988377,0,27033,0
+logistic_10_20_1_BMc_10.gms,KNITRO,NA,0,283,352,38,1121,160,8,1,6.2383246218677,6.23832191941726,671.694,671.714999713004,0,42701,0
