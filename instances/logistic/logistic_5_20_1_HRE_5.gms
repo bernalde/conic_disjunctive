@@ -187,7 +187,7 @@ cons_p_HRL(n).. (y(n)+epsilon)*log(1+exp(-(s_p_1(n)/(y(n)+epsilon) + s_n_1(n)/(y
 
 * Sawaya reformulation
 cons_n_HRS(n).. (((1-y(n))*(1-epsilon)+epsilon))*log(1+exp(s_p_0(n)/(((1-y(n))*(1-epsilon)+epsilon)) + s_n_0(n)/(((1-y(n))*(1-epsilon)+epsilon))))  - epsilon*y(n)*log(2) - t_0(n) =l= 0;
-cons_p_HRS(n).. ((y(n)*(1-epsilon)+epsilon))*log(1+exp(-(s_p_1(n)/((y(n)*(1-epsilon)+epsilon)) + s_n_1(n)/((y(n)*(1-epsilon)+epsilon))))) - epsilon*y(n)*log(2) - t_1(n) =l= 0;
+cons_p_HRS(n).. ((y(n)*(1-epsilon)+epsilon))*log(1+exp(-(s_p_1(n)/((y(n)*(1-epsilon)+epsilon)) + s_n_1(n)/((y(n)*(1-epsilon)+epsilon))))) - epsilon*(1-y(n))*log(2) - t_1(n) =l= 0;
 
 * Conic reformulation
 equation cons_n_HRC, cons_n2_HRC, cons_n3_HRC, cons_n4_HRC,
@@ -255,5 +255,5 @@ extra_n1_HRC,extra_n2_HRC
 extra_p1_HRC,extra_p2_HRC/;
 
 
-solve logistic_HRE using minlp min obj;
+solve logistic_BM using minlp min obj;
 
