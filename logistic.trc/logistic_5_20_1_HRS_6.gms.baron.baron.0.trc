@@ -2,4 +2,4 @@
 * GamsSolve
 * InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
 * ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-logistic_5_20_1_HRS_6.gms,BARON,NA,0,303,227,38,921,120,19,1,NA,1E51,0.14,0.181000074371696,NA,0,0
+logistic_5_20_1_HRS_6.gms,BARON,NA,0,123,107,38,501,80,8,1,8.43285536552244,8.43277103781,40.81,40.8479999983683,0,287,0
