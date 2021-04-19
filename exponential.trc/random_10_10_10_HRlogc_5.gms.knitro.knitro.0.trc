@@ -2,4 +2,4 @@
 * GamsSolve
 * InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
 * ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_10_10_10_HRlogc_5.gms,KNITRO,NA,0,2621,1412,100,7321,200,6,4,-3.28424089614475,-42.538222380398,850.224,850.240000127815,0,200001,0
+random_10_10_10_HRlogc_5.gms,KNITRO,NA,0,2621,1412,100,6321,200,6,4,-33.2587519201695,-31.0320150259868,837.573,837.586999707855,0,200001,0

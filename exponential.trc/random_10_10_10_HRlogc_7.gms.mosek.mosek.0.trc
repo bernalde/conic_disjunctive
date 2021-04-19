@@ -2,4 +2,4 @@
 * GamsSolve
 * InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
 * ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_10_10_10_HRlogc_7.gms,MOSEK,NA,0,2621,1412,100,7321,200,1,1,-29.6241664086773,-29.6241664086773,17.128,17.1760000521317,4806,229,NA
+random_10_10_10_HRlogc_7.gms,MOSEK,NA,0,2621,1412,100,6321,200,1,1,-24.884227877006,-24.884227877006,30.619,30.6670001009479,13731,357,NA
