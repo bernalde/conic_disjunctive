@@ -17,6 +17,14 @@ for prob in ${Problems[@]}; do
     sed -i 's/.gms//' ../${prob}.${sol}.trc
     # Remove problem type from problem name
     sed -i "s/_${prob}_/_/I" ../${prob}.${sol}.trc
+    # Replace HRlog with HR for it to match logistic
+    sed -i 's/HRlog,/HR,/' ../${prob}.${sol}.trc
+    # Replace BMlog with BM for it to match logistic
+    sed -i 's/BMlog,/BM,/' ../${prob}.${sol}.trc
+    # Replace HRlogc with HRc for it to match logistic
+    sed -i 's/HRlogc,/HRc,/' ../${prob}.${sol}.trc
+    # Replace BMlogc with BMc for it to match logistic
+    sed -i 's/BMlogc,/BMc,/' ../${prob}.${sol}.trc
     # Paste trace specifications at the beginning of the file
     cat trc_specs.txt ../${prob}.${sol}.trc > ../${prob}.${sol}.modified
     mv ../${prob}.${sol}.modified ../${prob}.${sol}.trc

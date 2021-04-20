@@ -1,0 +1,73 @@
+Category: Solution Quality
+Attribute: Gap
+Filter: no fail
+Absolute performance profile: stat_SolutionQualityprofileabs000.txt
+
+Category: Solution Quality
+Attribute: Gap
+Filter: gap <= 0.1% and not failed
+       baronBM  baronBMc  baronHR  baronHRc  cplexBM  cplexHRc  knitroBM  knitroBMc  knitroHR  knitroHRc  mosekBM  mosekBM.2  mosekBMc  mosekBMc.2  mosekHRc  mosekHRc.2  sbbknitroBM  sbbknitroBMc  sbbknitroHR  sbbknitroHRc  sbbmosekBM  sbbmosekBMc  sbbmosekHR  sbbmosekHRc
+count      391       205      360       159      184       183       310        176       339        143      188        155       375         355       393         369          295           296          340           190         144          298           0          345
+Data: stat_SolutionQualitydata001.txt
+
+Category: Solution Quality
+Attribute: Gap
+Filter: gap <= 1% and not failed
+       baronBM  baronBMc  baronHR  baronHRc  cplexBM  cplexHRc  knitroBM  knitroBMc  knitroHR  knitroHRc  mosekBM  mosekBM.2  mosekBMc  mosekBMc.2  mosekHRc  mosekHRc.2  sbbknitroBM  sbbknitroBMc  sbbknitroHR  sbbknitroHRc  sbbmosekBM  sbbmosekBMc  sbbmosekHR  sbbmosekHRc
+count      391       205      360       162      184       183       346        177       378        180      188        155       375         355       393         369          299           299          340           190         144          301           0          345
+Data: stat_SolutionQualitydata002.txt
+
+Category: Solution Quality
+Attribute: Gap
+Filter: gap <= 10% and not failed
+       baronBM  baronBMc  baronHR  baronHRc  cplexBM  cplexHRc  knitroBM  knitroBMc  knitroHR  knitroHRc  mosekBM  mosekBM.2  mosekBMc  mosekBMc.2  mosekHRc  mosekHRc.2  sbbknitroBM  sbbknitroBMc  sbbknitroHR  sbbknitroHRc  sbbmosekBM  sbbmosekBMc  sbbmosekHR  sbbmosekHRc
+count      391       206      363       172      184       183       351        178       382        185      188        157       375         359       393         372          306           308          344           190         144          310           0          345
+Data: stat_SolutionQualitydata003.txt
+
+Category: Solution Quality
+Attribute: PrimalGap
+Filter: no fail
+Absolute performance profile: stat_SolutionQualityprofileabs004.txt
+
+Category: Solution Quality
+Attribute: PrimalGap
+Filter: within 0.1% of known optimal value and not failed
+       baronBM  baronBMc  baronHR  baronHRc  cplexBM  cplexHRc  knitroBM  knitroBMc  knitroHR  knitroHRc  mosekBM  mosekBM.2  mosekBMc  mosekBMc.2  mosekHRc  mosekHRc.2  sbbknitroBM  sbbknitroBMc  sbbknitroHR  sbbknitroHRc  sbbmosekBM  sbbmosekBMc  sbbmosekHR  sbbmosekHRc
+count      393       197      370       167      184       188       349        168       374        177      191        172       372         366       390         389          308           300          340           169         144          288           0          333
+Data: stat_SolutionQualitydata005.txt
+
+Category: Solution Quality
+Attribute: PrimalGap
+Filter: within 1% of known optimal value and not failed
+       baronBM  baronBMc  baronHR  baronHRc  cplexBM  cplexHRc  knitroBM  knitroBMc  knitroHR  knitroHRc  mosekBM  mosekBM.2  mosekBMc  mosekBMc.2  mosekHRc  mosekHRc.2  sbbknitroBM  sbbknitroBMc  sbbknitroHR  sbbknitroHRc  sbbmosekBM  sbbmosekBMc  sbbmosekHR  sbbmosekHRc
+count      394       197      375       174      184       189       351        169       380        182      191        173       373         369       390         390          309           301          341           179         144          290           0          333
+Data: stat_SolutionQualitydata006.txt
+
+Category: Solution Quality
+Attribute: PrimalGap
+Filter: within 10% of known optimal value and not failed
+       baronBM  baronBMc  baronHR  baronHRc  cplexBM  cplexHRc  knitroBM  knitroBMc  knitroHR  knitroHRc  mosekBM  mosekBM.2  mosekBMc  mosekBMc.2  mosekHRc  mosekHRc.2  sbbknitroBM  sbbknitroBMc  sbbknitroHR  sbbknitroHRc  sbbmosekBM  sbbmosekBMc  sbbmosekHR  sbbmosekHRc
+count      397       197      385       194      184       191       353        171       381        187      191        180       380         376       390         390          313           304          350           188         144          299           0          338
+Data: stat_SolutionQualitydata007.txt
+
+Category: Solution Quality
+Attribute: DualGap
+Filter: dual gap <= 0.1% and not failed
+       baronBM  baronBMc  baronHR  baronHRc  cplexBM  cplexHRc  knitroBM  knitroBMc  knitroHR  knitroHRc  mosekBM  mosekBM.2  mosekBMc  mosekBMc.2  mosekHRc  mosekHRc.2  sbbknitroBM  sbbknitroBMc  sbbknitroHR  sbbknitroHRc  sbbmosekBM  sbbmosekBMc  sbbmosekHR  sbbmosekHRc
+count      355       180      324       332      174       183       278        151       310        145      178        142       365         341       368         341          260           262          305           190         134          269           0          320
+Data: stat_SolutionQualitydata008.txt
+
+Category: Solution Quality
+Attribute: DualGap
+Filter: dual gap <= 1% and not failed
+       baronBM  baronBMc  baronHR  baronHRc  cplexBM  cplexHRc  knitroBM  knitroBMc  knitroHR  knitroHRc  mosekBM  mosekBM.2  mosekBMc  mosekBMc.2  mosekHRc  mosekHRc.2  sbbknitroBM  sbbknitroBMc  sbbknitroHR  sbbknitroHRc  sbbmosekBM  sbbmosekBMc  sbbmosekHR  sbbmosekHRc
+count      362       182      331       342      177       183       318        154       349        181      181        145       368         345       371         344          271           271          311           190         137          277           0          323
+Data: stat_SolutionQualitydata009.txt
+
+Category: Solution Quality
+Attribute: DualGap
+Filter: dual gap <= 10% and not failed
+       baronBM  baronBMc  baronHR  baronHRc  cplexBM  cplexHRc  knitroBM  knitroBMc  knitroHR  knitroHRc  mosekBM  mosekBM.2  mosekBMc  mosekBMc.2  mosekHRc  mosekHRc.2  sbbknitroBM  sbbknitroBMc  sbbknitroHR  sbbknitroHRc  sbbmosekBM  sbbmosekBMc  sbbmosekHR  sbbmosekHRc
+count      390       206      362       366      183       183       352        179       383        189      187        153       374         355       393         369          307           309          347           190         143          309           0          347
+Data: stat_SolutionQualitydata010.txt
+

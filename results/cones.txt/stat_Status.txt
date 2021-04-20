@@ -1,0 +1,35 @@
+Category: Status
+Attribute: Fail
+Filter: instance or solve run marked as failed
+       baronBM  baronBMc  baronHR  baronHRc  cplexBM  cplexHRc  knitroBM  knitroBMc  knitroHR  knitroHRc  mosekBM  mosekBM.2  mosekBMc  mosekBMc.2  mosekHRc  mosekHRc.2  sbbknitroBM  sbbknitroBMc  sbbknitroHR  sbbknitroHRc  sbbmosekBM  sbbmosekBMc  sbbmosekHR  sbbmosekHRc
+count        0       217        0         0      241       209        39        221         0        188      208        208         6           2         0           0          110           108           73           202         281          115         425           78
+Data: stat_Statusdata000.txt
+
+Category: Status
+Attribute: TerminationStatus
+Filter: normal termination
+       baronBM  baronBMc  baronHR  baronHRc  cplexBM  cplexHRc  knitroBM  knitroBMc  knitroHR  knitroHRc  mosekBM  mosekBM.2  mosekBMc  mosekBMc.2  mosekHRc  mosekHRc.2  sbbknitroBM  sbbknitroBMc  sbbknitroHR  sbbknitroHRc  sbbmosekBM  sbbmosekBMc  sbbmosekHR  sbbmosekHRc
+count      391       205      360       159      184       183       350        176       381        235      188        155       375         355       393         369          294           296          339           288         144          297           0          348
+Data: stat_Statusdata001.txt
+
+Category: Status
+Attribute: TerminationStatus
+Filter: exceeded some limit
+       baronBM  baronBMc  baronHR  baronHRc  cplexBM  cplexHRc  knitroBM  knitroBMc  knitroHR  knitroHRc  mosekBM  mosekBM.2  mosekBMc  mosekBMc.2  mosekHRc  mosekHRc.2  sbbknitroBM  sbbknitroBMc  sbbknitroHR  sbbknitroHRc  sbbmosekBM  sbbmosekBMc  sbbmosekHR  sbbmosekHRc
+count       34         3       65       266        0        33        36         28        44         53       29         62        44          68        32          56           21            21           13            33           0           13           0            2
+Data: stat_Statusdata002.txt
+
+Category: Status
+Attribute: TerminationStatus
+Filter: capability problem
+       baronBM  baronBMc  baronHR  baronHRc  cplexBM  cplexHRc  knitroBM  knitroBMc  knitroHR  knitroHRc  mosekBM  mosekBM.2  mosekBMc  mosekBMc.2  mosekHRc  mosekHRc.2  sbbknitroBM  sbbknitroBMc  sbbknitroHR  sbbknitroHRc  sbbmosekBM  sbbmosekBMc  sbbmosekHR  sbbmosekHRc
+count        0         0        0         0        0         0         0          0         0          0        0          0         0           0         0           0            0             0            0             0           0            0          18            0
+Data: stat_Statusdata003.txt
+
+Category: Status
+Attribute: TerminationStatus
+Filter: error or other problem
+       baronBM  baronBMc  baronHR  baronHRc  cplexBM  cplexHRc  knitroBM  knitroBMc  knitroHR  knitroHRc  mosekBM  mosekBM.2  mosekBMc  mosekBMc.2  mosekHRc  mosekHRc.2  sbbknitroBM  sbbknitroBMc  sbbknitroHR  sbbknitroHRc  sbbmosekBM  sbbmosekBMc  sbbmosekHR  sbbmosekHRc
+count        0         0        0         0       33         1        38          3         0        137        0          0         0           1         0           0          110           108           73           104          73          115           0           75
+Data: stat_Statusdata004.txt
+

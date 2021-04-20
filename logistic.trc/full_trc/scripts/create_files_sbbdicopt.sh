@@ -13,6 +13,8 @@ for prob in ${Problems[@]}; do
         sed -i '/^*/d' ../${prob}.${ssol}${sol}.trc
         # Rename the lines to replace the solver with solverproblem, e.g., baron->baronBM
         sed -i "s/${ssol}/${ssol}${sol}${prob}/I" ../${prob}.${ssol}${sol}.trc
+        # Add rename instances to LogReg_
+        sed -i -e 's/logistic_/LogReg_/' ../${prob}.${ssol}${sol}.trc
         # Remove all places where .gms appears
         sed -i 's/.gms//' ../${prob}.${ssol}${sol}.trc
         # Remove problem type from problem name
@@ -21,6 +23,8 @@ for prob in ${Problems[@]}; do
         sed -i '/_3_/d' ../${prob}.${ssol}${sol}.trc
         # Remove all lines with _50_ experiments
         sed -i '/_50_/d' ../${prob}.${ssol}${sol}.trc
+        # Replace HRS with HR for it to match exp
+        sed -i 's/HRS,/HR,/' ../${prob}.${ssol}${sol}.trc
         # Paste trace specifications at the beginning of the file
         cat trc_specs.txt ../${prob}.${ssol}${sol}.trc > ../${prob}.${ssol}${sol}.modified
         mv ../${prob}.${ssol}${sol}.modified ../${prob}.${ssol}${sol}.trc

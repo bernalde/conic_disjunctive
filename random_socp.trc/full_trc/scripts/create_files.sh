@@ -1,7 +1,9 @@
 # Script to generate single trace file from separate files out of GAMS
 FILE="random_socp"
-declare -a Problems=("BM" "HR2" "HRL" "HRS" "HRc" "HRC")
-declare -a Solvers=("baron" "antigone" "mosek" "knitro" "scip" "cplex")
+# declare -a Problems=("BM" "HR2" "HRL" "HRS" "HRc" "HRC")
+declare -a Problems=("BM" "HRS" "HRc")
+# declare -a Solvers=("baron" "antigone" "mosek" "knitro" "scip" "cplex")
+declare -a Solvers=("baron" "mosek" "knitro" "cplex")
 for prob in ${Problems[@]}; do
   for sol in ${Solvers[@]}; do
     echo "Processing problem ${prob} with solver ${sol}"
@@ -19,6 +21,8 @@ for prob in ${Problems[@]}; do
     sed -i "s/_${prob}_/_/I" ../${prob}.${sol}.trc
     # Remove all places where QCP, appears
     sed -i 's/QCP,//' ../${prob}.${sol}.trc
+    # Replace HRS with HR for it to match kclustering
+    sed -i 's/HRS,/HR,/' ../${prob}.${sol}.trc
     # Paste trace specifications at the beginning of the file
     cat trc_specs.txt ../${prob}.${sol}.trc > ../${prob}.${sol}.modified
     mv ../${prob}.${sol}.modified ../${prob}.${sol}.trc

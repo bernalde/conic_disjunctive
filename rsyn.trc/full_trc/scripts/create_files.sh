@@ -1,7 +1,8 @@
 # Script to generate single trace file from separate files out of GAMS
 FILE="rsyn"
-declare -a Problems=("BM" "BMC" "HA" "HC" "HD" "HL" "HR" "HS")
-declare -a Solvers=("baron" "antigone" "mosek" "knitro" "scip")
+# declare -a Problems=("BM" "BMC" "HA" "HC" "HD" "HL" "HR" "HS")
+declare -a Problems=("BM" "BMC" "HA" "HC" "HD" "HL" "HS")
+declare -a Solvers=("baron" "antigone" "mosek" "knitro" "scip" "cplex")
 for prob in ${Problems[@]}; do
   for sol in ${Solvers[@]}; do
     echo "Processing problem ${prob} with solver ${sol}"
@@ -13,6 +14,12 @@ for prob in ${Problems[@]}; do
     sed -i "s/${prob}.gms//I" ../${prob}.${sol}.trc
     # Rename the lines to replace the solver with solverproblem, e.g., baron->baronBM
     sed -i "s/${sol}/${sol}${prob}/I" ../${prob}.${sol}.trc
+    # Replace HS with HR for it to match logistic
+    sed -i 's/HS,/HR,/' ../${prob}.${sol}.trc
+    # Replace HC with HRc for it to match logistic
+    sed -i 's/HC,/HRc,/' ../${prob}.${sol}.trc
+    # Replace BMC with BMc for it to match logistic
+    sed -i 's/BMC,/BMc,/' ../${prob}.${sol}.trc
     # Paste trace specifications at the beginning of the file
     cat trc_specs.txt ../${prob}.${sol}.trc > ../${prob}.${sol}.modified
     mv ../${prob}.${sol}.modified ../${prob}.${sol}.trc

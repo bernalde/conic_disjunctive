@@ -1,8 +1,11 @@
 # Script to generate single trace file from separate files out of GAMS
 FILE="clay"
-declare -a Problems=("BM" "HR2" "HRL" "HRS" "HRc" "HRC")
+declare -a Problems=("M" "HR" "HR2" "HRL" "HRc" "HRconv" "H2")
+# declare -a Problems=("M" "HR" "HRc")
 declare -a Supersolvers=("sbb" "dicopt2")
+# declare -a Supersolvers=("sbb")
 declare -a Solvers=("conopt" "ipopth" "knitro" "mosek")
+# declare -a Solvers=("knitro" "mosek")
 for prob in ${Problems[@]}; do
   for ssol in ${Supersolvers[@]}; do
     for sol in ${Solvers[@]}; do
@@ -17,6 +20,8 @@ for prob in ${Problems[@]}; do
         sed -i "s/${ssol}/${ssol}${sol}${prob}/I" ../${prob}.${ssol}${sol}.trc
         # Remove problem type from problem name
         sed -i "s/_${prob}_/_/I" ../${prob}.${ssol}${sol}.trc
+        # Replace M with BM for it to match kclustering
+        sed -i 's/M,/BM,/' ../${prob}.${ssol}${sol}.trc
         # Paste trace specifications at the beginning of the file
         cat trc_specs.txt ../${prob}.${ssol}${sol}.trc > ../${prob}.${ssol}${sol}.modified
         mv ../${prob}.${ssol}${sol}.modified ../${prob}.${ssol}${sol}.trc
