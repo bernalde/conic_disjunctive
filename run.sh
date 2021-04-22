@@ -2,7 +2,7 @@
 
 GAMS="/home/bernalde/gams/gams28.2_linux_x64_64_sfx/gams"
 QSUB="/usr/local/bin/qsub"
-TESTSET="exponential"
+TESTSET="syn"
 if [ $USER == debernal ] ; then
     INSTANCEDIR=/home/debernal/Perspective/instances
     EXPDIR=/home/bernalde/Repositories/conic_disjunctive
@@ -84,8 +84,8 @@ function runsolveropt ()
 #runsolveropt sbb gurobi 0 1
 #runsolveropt sbb ipopth 0 0
 #runsolveropt sbb conopt 0 0
-runsolveropt sbb mosek 0 0
-#runsolveropt sbb knitro 0 0
+runsolveropt sbb mosek 2 0
+runsolveropt sbb knitro 2 0
 
 # run global minlp solvers
 #runsolveropt baron baron 0 0
@@ -107,6 +107,6 @@ runsolveropt sbb mosek 0 0
 #runsolveropt dicopt2 mosek 2 0
 
 # run knitro
-#runsolveropt knitro knitro 0 0
+runsolveropt knitro knitro 2 0
 
 
