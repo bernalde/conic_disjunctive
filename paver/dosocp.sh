@@ -7,10 +7,19 @@ set -e
 # disable examiner checks for feasibility and optimality
 python3 ../src/paver/paver.py \
   socp_full_trace/*.trc \
+  ../solu/socp.solu \
   --failtime 3600 \
   --mintime 0.1 \
   --ccopttol inf \
-  --ccfeastol inf \
+  --ccreltol 1e03 \
+  --ccabstol 1e-7 \
   --writetext socp.txt \
-  --ignoredualbounds
-#  --writehtml socp.html \
+  --writehtml socp.html \
+  --gaptol 0.001 \
+  --novirt \
+  --extendedprofiles \
+  --nocheckinstanceattr \
+  --numpts 50 \
+  --nocheckinstanceattr \
+  # --ignoredualbounds \
+

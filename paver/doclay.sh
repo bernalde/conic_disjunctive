@@ -1,3 +1,5 @@
+#!/bin/bash
+
 set -e
 
 # use 3600s if solver failed
@@ -5,10 +7,19 @@ set -e
 # disable examiner checks for feasibility and optimality
 python3 ../src/paver/paver.py \
   clay_full_trc/*.trc \
+  ../solu/clay.solu \
   --failtime 3600 \
   --mintime 0.1 \
   --ccopttol inf \
-  --ccfeastol inf \
+  --ccreltol 1e03 \
+  --ccabstol 1e-7 \
   --writetext clay.txt \
-  --ignoredualbounds
-#  --writehtml clay.html \
+  --writehtml clay.html \
+  --gaptol 0.001 \
+  --novirt \
+  --nocheckinstanceattr \
+  --numpts 50 \
+  --nocheckinstanceattr \
+  --extendedprofiles \
+#   --ignoredualbounds \
+
