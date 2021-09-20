@@ -1,0 +1,6 @@
+* Trace Record Definition
+* GamsSolve
+* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
+* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
+random_10_10_10_HRc_6.gms,KNITRO,NA,0,2421,1212,100,5821,1100,8,1,-21.0563480650738,-21.0563434037054,66.693,66.7100001359358,0,319,0
+random_10_10_10_HRc_6.gms,KNITRO,NA,0,2421,1212,100,5821,1100,8,1,-21.0563480650738,-21.0563434037054,66.555,66.5679997997358,0,319,0

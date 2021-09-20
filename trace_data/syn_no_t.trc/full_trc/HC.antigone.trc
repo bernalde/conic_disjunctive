@@ -1,0 +1,10 @@
+* Trace Record Definition
+* GamsSolve
+* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
+* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
+Syn05,antigoneHRc,NA,1,65,49,5,153,6,18,1,NA,1335.92639906809,3600,3599.86399984919,0,65139,0
+Syn10,antigoneHRc,NA,1,125,90,10,291,12,18,1,NA,2023.96635993365,3600,3600.53499990609,0,45868,0
+Syn15,antigoneHRc,NA,1,205,145,16,473,22,18,1,NA,2202.67794917429,3600,3599.90399975795,0,26807,0
+Syn20,antigoneHRc,NA,1,263,181,21,606,28,18,1,NA,3667.95648688487,3600,3599.48200006038,0,4597,0
+Syn30,antigoneHRc,NA,1,387,270,31,897,40,18,1,NA,921.322958284628,3600,3600.23699998856,0,5330,0
+Syn40,antigoneHRc,NA,1,525,361,42,1215,56,18,1,NA,1643.6017770814,3600,3599.35899982229,0,4526,0

@@ -1,0 +1,6 @@
+* Trace Record Definition
+* GamsSolve
+* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
+* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
+random_10_10_10_BM_6.gms,BARON,NA,0,111,112,100,1311,1000,8,2,-18.9474606391751,-45.1531373338,1285.4,1285.59100013226,0,1000000,0
+random_10_10_10_BM_6.gms,BARON,NA,0,111,112,100,1311,1000,8,2,-18.9474606391751,-45.1531373338,1284.24,1284.42799975164,0,1000000,0

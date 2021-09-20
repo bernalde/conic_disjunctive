@@ -1,0 +1,14 @@
+* Trace Record Definition
+* GamsSolve
+* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
+* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
+exp_random_10_10_10_1,sbbknitroBMc,2,0,311,412,100,1811,200,13,13,0,NA,0.022,0.0320004299283028,0,NA,0
+exp_random_10_10_10_10,sbbknitroBMc,2,0,311,412,100,1811,200,13,13,0,NA,0.022,0.0319998012855649,0,NA,0
+exp_random_10_10_10_2,sbbknitroBMc,2,0,311,412,100,1811,200,13,13,0,NA,0.028,0.0410000793635845,0,NA,0
+exp_random_10_10_10_3,sbbknitroBMc,2,0,311,412,100,1811,200,13,13,0,NA,0.022,0.0320004299283028,0,NA,0
+exp_random_10_10_10_4,sbbknitroBMc,2,0,311,412,100,1811,200,13,13,0,NA,0.044,0.057999836280942,0,NA,0
+exp_random_10_10_10_5,sbbknitroBMc,2,0,311,412,100,1811,200,13,13,0,NA,0.024,0.0329999718815088,0,NA,0
+exp_random_10_10_10_6,sbbknitroBMc,2,0,311,412,100,1811,200,13,13,0,NA,0.039,0.0509998993948102,0,NA,0
+exp_random_10_10_10_7,sbbknitroBMc,2,0,311,412,100,1811,200,13,13,0,NA,0.037,0.0519994413480163,0,NA,0
+exp_random_10_10_10_8,sbbknitroBMc,2,0,311,412,100,1811,200,13,13,0,NA,0.024,0.0339995138347149,0,NA,0
+exp_random_10_10_10_9,sbbknitroBMc,2,0,311,412,100,1811,200,13,13,0,NA,0.039,0.0509998993948102,0,NA,0
