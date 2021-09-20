@@ -1,0 +1,5 @@
+theme: jekyll-theme-minimal
+encoding: UTF-8
+# Google Analytics
+google_analytics: UA-50438274-2
+markdown: kramdown
