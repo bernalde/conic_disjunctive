@@ -13,12 +13,12 @@
 ## Description
 
 
-The PAVER reports used in the paper: **"Convex Mixed-Integer Nonlinear Programs Derived from Generalized Disjunctive Programming using Cones"** by D.E. Bernal and I.E. Grossmann are available here.
+Find here the PAVER reports used in the paper: **"Convex Mixed-Integer Nonlinear Programs Derived from Generalized Disjunctive Programming using Cones"** by D.E. Bernal and I.E. Grossmann are available  <a href="Conic_GDP_arXiv.pdf" download>here.</a>.
 
 
 ## Algorithms/Methods/Instances
 The comparison here includes the conic and nonlinear representation of several convex generalized disjunctive programming problems.
-The instances can be classified in 2 major families, quadratic (which are representable using the second-order cone) and exponential.
+The instances can be classified into two major families, quadratic (which are representable using the second-order cone) and exponential.
 
 Among the quadratic instances (217 problems) include:
 - [Contrained Layout problems](https://minlp.org/library/problem/index.php?i=107&lib=GDP).
@@ -33,7 +33,7 @@ The exponential instances (208 problems) include:
 
 In particular, the reformulations considered were:
 - Big-M reformulation.
-- Conic-based Big-M reformulation (especially for exponential instances since the structure is not automatically identified, as it is the case with Second-Order Conic constraints).
+- Conic-based Big-M reformulation (especially for exponential instances since the structure is not automatically identified, as is the case with Second-Order Conic constraints).
 - $\varepsilon$-approximation of Hull Reformulation (HR) according to [Furman, Sawaya, Grossmann](https://doi.org/10.1007/s10589-020-00176-0)
 - Exact conic formulation of the Hull Reformulation (HR).
 
