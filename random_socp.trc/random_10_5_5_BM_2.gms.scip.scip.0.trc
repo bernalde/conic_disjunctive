@@ -1,5 +1,0 @@
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_10_5_5_BM_2.gms,SCIP,NA,0,61,56,50,356,250,1,1,-3368.58770337569,-3368.58770337569,2.98,3.02300022449344,7200,147,0

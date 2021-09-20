@@ -1,5 +1,0 @@
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-Syn40M04HD.gms,SBB,NA,1,3353,1753,320,7609,224,8,4,800.42990208854,2952.5831135725,675.759,675.787999900058,316054,6425,0

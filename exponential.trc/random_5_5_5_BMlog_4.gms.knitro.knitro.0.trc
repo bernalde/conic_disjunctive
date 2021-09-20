@@ -1,5 +1,0 @@
-* Trace Record Definition
-* GamsSolve
-* InputFileName,SolverName,OptionFile,Direction,NumberOfEquations,NumberOfVariables,NumberOfDiscreteVariables,NumberOfNonZeros,NumberOfNonlinearNonZeros,
-* ModelStatus,SolverStatus,ObjectiveValue,ObjectiveValueEstimate,SolverTime,ETSolver,NumberOfIterations,NumberOfNodes,NumberOfDomainViolations
-random_5_5_5_BMlog_4.gms,KNITRO,NA,0,31,32,25,206,25,8,1,-19.9255199917438,-19.9255199917438,0.721,0.739999883808196,0,136,0
