@@ -13,7 +13,7 @@
 ## Description
 
 
-Find here the PAVER reports used in the paper: **"Convex Mixed-Integer Nonlinear Programs Derived from Generalized Disjunctive Programming using Cones"** by D.E. Bernal and I.E. Grossmann are available  <a href="Conic_GDP_arXiv.pdf" download>here</a>.
+Find here the PAVER reports used in the paper: **"Convex Mixed-Integer Nonlinear Programs Derived from Generalized Disjunctive Programming using Cones"** by D.E. Bernal and I.E. Grossmann are available in the <a href="Conic_GDP_arXiv.pdf" download>repository</a> and [arXiv](http://arxiv.org/abs/2109.09657).
 
 
 ## Algorithms/Methods/Instances
