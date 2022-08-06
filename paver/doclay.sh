@@ -1,7 +1,5 @@
 #!/bin/bash
-
 set -e
-
 # use 3600s if solver failed
 # reduce mintime to 0.1s, which fits better to local solvers
 # disable examiner checks for feasibility and optimality
@@ -37,7 +35,7 @@ python3 ../src/paver/paver.py \
   --extendedprofiles \
   --nocheckinstanceattr \
   --nocheckinstanceattr \
-  --numpts 2000 \
+  --numpts 2000
   # --ignoredualbounds \
 
 
