@@ -1,4 +1,4 @@
-*Constrained Layout Problem with 4 rectangles and 3 areas
+*Constrained Layout Problem with 4 rectangles and 2 areas
 *Convex Hull version
 
 $TITLE Constrained Layout Problem
@@ -8,7 +8,7 @@ $ONINLINE
 
 SETS
 I /1*4/ /*Number of rectangles*/
-AREA /1*3/ /*Number of areas*/
+AREA /1*2/ /*Number of areas*/
 D1 /1*4/ /*Number of disjuncts for non-overlapping constraints*/
 D2 /1*4/ /*Number of constraints in disjuncts for safety constraints*/
 ;
@@ -32,18 +32,15 @@ H(I)
 
 XBAR(AREA)
          / 1 = 15
-           2 = 50
-           3 = 30/
+           2 = 50/
 
 YBAR(AREA)
          / 1 = 10
-           2 = 80
-           3 = 50/
+           2 = 80/
 
 R(AREA)
          / 1 = 6
-           2 = 5
-           3 = 4/;
+           2 = 10/;
 
 PARAMETERS
 XMIN(I) /1*4 = 0/
@@ -161,15 +158,21 @@ BNDUU(AREA,I).. UU(AREA,I) =L= W(AREA,I)*(YBAR(AREA) + R(AREA) - H(I)/2);
 *SAF3(AREA,I).. (W(AREA,I)+ES)*(SQR(U(AREA,I)/(W(AREA,I)+ES)) + 2*(L(I)/2 - XBAR(AREA))*U(AREA,I)/(W(AREA,I)+ES) + SQR(L(I)/2 - XBAR(AREA))*W(AREA,I) + SQR(UU(AREA,I)/(W(AREA,I)+ES)) + 2*(H(I)/2 - YBAR(AREA))*UU(AREA,I)/(W(AREA,I)+ES) + SQR(H(I)/2 - YBAR(AREA))*W(AREA,I) - SQR(R(AREA))*W(AREA,I)) =L= 0;
 *SAF4(AREA,I).. (W(AREA,I)+ES)*(SQR(U(AREA,I)/(W(AREA,I)+ES)) + 2*(L(I)/2 - XBAR(AREA))*U(AREA,I)/(W(AREA,I)+ES) + SQR(L(I)/2 - XBAR(AREA))*W(AREA,I) + SQR(UU(AREA,I)/(W(AREA,I)+ES)) - 2*(H(I)/2 + YBAR(AREA))*UU(AREA,I)/(W(AREA,I)+ES) + SQR(H(I)/2 + YBAR(AREA))*W(AREA,I) - SQR(R(AREA))*W(AREA,I)) =L= 0;
 
-*HR2
+*HR2c
 POSITIVE VARIABLE T(AREA,I);
 T.UP(AREA,I) = (SQR(XBAR(AREA) + R(AREA) - L(I)/2)) + (SQR(YBAR(AREA) + R(AREA) - H(I)/2));
+POSITIVE VARIABLE U_c(AREA,I), UU_c(AREA,I);
+U_c.UP(AREA,I) = SQRT(2)*(XBAR(AREA) + R(AREA) - L(I)/2);
+UU_c.UP(AREA,I) = SQRT(2)*(YBAR(AREA) + R(AREA) - H(I)/2);
 EQUATION SAF_c(AREA,I);
+EQUATION SAFc_c(AREA,I), SAFc_cc(AREA,I);
 SAF1(AREA,I).. T(AREA,I) - 2*(L(I)/2 + XBAR(AREA))*U(AREA,I) + 2*(H(I)/2 - YBAR(AREA))*UU(AREA,I) + W(AREA,I)*(SQR(L(I)/2 + XBAR(AREA)) + SQR(H(I)/2 - YBAR(AREA)) - SQR(R(AREA))) =L= 0;
 SAF2(AREA,I).. T(AREA,I) - 2*(L(I)/2 + XBAR(AREA))*U(AREA,I) - 2*(H(I)/2 + YBAR(AREA))*UU(AREA,I) + W(AREA,I)*(SQR(L(I)/2 + XBAR(AREA)) + SQR(H(I)/2 + YBAR(AREA)) - SQR(R(AREA))) =L= 0;
 SAF3(AREA,I).. T(AREA,I) + 2*(L(I)/2 - XBAR(AREA))*U(AREA,I) + 2*(H(I)/2 - YBAR(AREA))*UU(AREA,I) + W(AREA,I)*(SQR(L(I)/2 - XBAR(AREA)) + SQR(H(I)/2 - YBAR(AREA)) - SQR(R(AREA))) =L= 0;
 SAF4(AREA,I).. T(AREA,I) + 2*(L(I)/2 - XBAR(AREA))*U(AREA,I) - 2*(H(I)/2 + YBAR(AREA))*UU(AREA,I) + W(AREA,I)*(SQR(L(I)/2 - XBAR(AREA)) + SQR(H(I)/2 + YBAR(AREA)) - SQR(R(AREA))) =L= 0;
-SAF_c(AREA,I).. W(AREA,I)*T(AREA,I) =G= SQR(U(AREA,I)) + SQR(UU(AREA,I));
+SAF_c(AREA,I).. 2*(W(AREA,I)*T(AREA,I)) =G= SQR(U_c(AREA,I)) + SQR(UU_c(AREA,I));
+SAFc_c(AREA,I).. U_c(AREA,I) =E= SQRT(2)*U(AREA,I);
+SAFc_cc(AREA,I).. UU_c(AREA,I) =E= SQRT(2)*UU(AREA,I);
 
 *Summation of binary variables
 BIN2(I).. SUM(AREA,W(AREA,I)) =E= 1;
