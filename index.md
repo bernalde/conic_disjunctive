@@ -21,8 +21,8 @@ The comparison here includes the conic and nonlinear representation of several c
 The instances can be classified into two major families, quadratic (which are representable using the second-order cone) and exponential.
 
 Among the quadratic instances (217 problems) include:
-- [Contrained Layout problems](https://minlp.org/library/problem/index.php?i=107&lib=GDP).
-- k-Mean clustering problems.
+- [Contrained Layout problems](https://minlp.org/library/problem/index.php?i=306&lib=MINLP).
+- [k-Mean clustering problems](https://minlp.org/library/problem/index.php?i=307&lib=MINLP).
 - Random quadratic GDP problems.
 
 The exponential instances (208 problems) include:
